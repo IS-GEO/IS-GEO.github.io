@@ -1,0 +1,50 @@
+
+
+<!-- This include page generates from _data/events.yml  and styled by _sass/includes/_events.scss-->
+<div class="outer_eventscontainer">
+{% for event in site.data.events.events %}
+<div class="inner_eventcontainer">
+    <div class="eventimage">
+        {% if event.image %}
+            <h1>{{ event.tag }}</h1>
+            <img src="{{ event.image | relative_url }}" alt="Image of {{ event.name }}">
+
+        {% else %}
+            <h1>{{ event.tag }}</h1>
+    
+        {% endif %}
+        <div class="eventdate">
+            {{ event.date }} <br> {{ event.location}}
+        </div>
+
+    </div>
+    <div class="eventdata">
+        <h2> {{ event.name }}</h2>
+        <p> {{ event.description }}</p>
+        {% if event.collaborators %}
+        <ul>
+            {% for colab in event.collaborators %}
+                <li>
+                    <a href="{{ colab.url }}">{{ colab.name }}</a>
+                </li>
+
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+{% endfor %}
+</div>

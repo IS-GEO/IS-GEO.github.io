@@ -13,6 +13,8 @@
       <a href="{{ site.url }}/portfolio">
         <li class="btn-nav">Portfolio</li>
       </a>
+      
+      
       <!-- portfolio -->
       {% when 'portfolio'%}
       <a href="{{ site.url }}">
@@ -21,8 +23,9 @@
       <a href="{{ site.url }}/tags">
         <li class="btn-nav">Tags</li>
       </a>
-      <li class="current">Portfolio</li>
+     
       {% else %}
+      
       <!-- others -->
       <a href="{{ site.url }}">
         <li class="current btn-nav">Home</li>
@@ -32,7 +35,11 @@
       </a>
       <a href="{{ site.url }}/portfolio">
         <li class="btn-nav">Portfolio</li>
+        <a href="{{ site.url }}/events">
+          <li class="btn-nav">Events</li>
+        </a>
       </a>
+     
       {% endcase %}
     </ul>
   </nav>
