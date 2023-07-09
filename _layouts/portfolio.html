@@ -1,16 +1,32 @@
 ---
 layout: page
+
 ---
 {% assign profile = site.theme_settings.profile %}
 
-</div><!-- This Tag means End .container -->
-<div id="protfolio">
-  <section id="about-me">
-    <div class="row">
-      <div class="img-wrap col-12 col-md-4">
+</div><!-- This Tag means End .container  style="background-image: url('{{ site.url }}/assets/img/boulderfalls.JPG');" -->
+<div id="protfolio" >
+ 
+
+    <div style="text-align: center;">
+
+      <img src="{{ 'assets/img/ISGEO-Header.png' | relative_url }}" >
+      
+    </div>
+ <!--
+    <div class="row"  >
+      <div>
+        
+        {% if profile.headerimage %}
+        <div class="img" >
+          <img src="{{ site.baseurl }}/{{ profile.headerimage }}" alt="logo" style="background-color: rgba(255, 255, 255, 0.8); width: 70%; float: left; border-radius: 8px">
+        </div>
+
+        {% else %}
         <div class="img">
           <img src="{{ site.baseurl }}/{{ profile.image }}" alt="user_image">
         </div>
+        {% endif %}
       </div>
       <div class="text-wrap col-12 col-md-8">
         <h2 class="username">{{ profile.username }}</h2>
@@ -22,13 +38,18 @@ layout: page
       </div>
     </div>
     <div class="bg"></div>
-  </section>
+    -->
+
   <!-- career section -->
   <section id="career" class="row">
+    
     <article class="exper col-12 col-md-6">
-      <p class="title">EXPERIENCE</p>
+      <ul id="icons">
+        {% include icons.html %}
+      </ul>
+      <p class="title">PAST EVENTS</p>
       <ul class="exper-list">
-        {% for exp in  profile.experience %}
+        {% for exp in site.data.events.experience %}
         <li class="meta">
           <p class="date">{{ exp.start }} ~ {{ exp.end }}</p>
           <p class="description">{{ exp.experience }}</p>
@@ -37,7 +58,21 @@ layout: page
       </ul>
     </article>
     <article class="skills col-12 col-md-6">
-      <p class="title">SKILLS</p>
+      <p class="title">WORKGROUPS</p>
+      <ul class="skill-list">
+        {% for _ in profile.skills %}
+        <li class="skill">
+          <p class="name">{{ _.skill }}</p>
+          <div class="progress">
+            <div class="progress-bar" style="width: {{ _.value }}%">
+              <div class="progress-value">{{ _.value }}%</div>
+            </div>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+
+      <p class="title">COLLABORATIVE ORGANIZATIONS</p>
       <ul class="skill-list">
         {% for _ in profile.skills %}
         <li class="skill">
@@ -51,7 +86,11 @@ layout: page
         {% endfor %}
       </ul>
     </article>
+
+   
+
   </section>
 
   {% include projects.html %}
 </div>
+{% include footer.html %}

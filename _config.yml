@@ -1,17 +1,18 @@
 # Site Settings
 baseurl: ""
-url : "https://naye0ng.github.io"
+url : "https://IS-GEO.github.io"
 
 # Blog Settings
 theme_settings :
-  title : Grape Theme
-  favicon : assets/favicon.ico
+  title : Intelligent Systems and GEOsciences Research Coordination Network
+  favicon : assets/ISGEO-icon.svg #assets/favicon.ico
 
   # Profile Settings
   profile :
-    image : assets/img/smile.png
-    username : Nayeong Kim
-    description : creator of Grape-Theme! Grape-Theme is my first jekyll theme and you can customize this theme easily.
+    image : assets/ISGEO-icon.svg
+    headerimage: assets/img/IS-GEO-3c.svg
+    username : IS-GEO Community
+    description : Intelligent Systems and GEOsciences Research Coordination Network
     experience :
       - start : 2017-05-03
         end : 2018-05-06
@@ -22,16 +23,17 @@ theme_settings :
         
   # Icons
   icons :
-    email:  # Full email address, e.g. "sample@google.com"
-    linkedin:  # Full URL 
-    github: naye0ng
+    email:  spierce@tacc.utexas.edu # Full email address, e.g. "sample@google.com"
+    linkedin:  https://www.linkedin.com/in/suzpierce/ # Full URL 
+    github: IS-GEO
     gitlab: 
     bitbucket: 
     google_plus:
-    twitter:
-    youtube:
+    twitter: IS_GEOCommunity
+    youtube: https://www.youtube.com/@intelligentsystemsforgeosc6592
     facebook:
     instagram:
+    
 
   # Disqus
   disqus_shortname :
@@ -44,6 +46,7 @@ paginate_path: "blog/page:num"
 sass:
   sass_dir: _sass
   style: :compressed
-gems: [jekyll-paginate]
+#gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 bootstrap:
   assets: true
