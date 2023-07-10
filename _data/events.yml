@@ -76,7 +76,7 @@ events:
     description: >
       Join IS-GEO members at the 2019 AAAS Annual meeting in Washington DC, February 15th from 8-9:30am : Out session is titled “<em>How AI and Knowledge Centers are Changing Societal Views of Critical Earth Resources</em>” . See&nbsp;<a href="http://www.aaas.org/meetings" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable">www.<span id="0.1927139655136012" class="highlight">aaas</span>.org/meetings</a>&nbsp;where a meeting schedule will be available on Tuesday, October 9th.
   
-  - name:
+  - name: IS-GEO19 Workshop and Training Institute on Adaptive Sensing
     tag: Workshop
     url:
     image:
@@ -94,7 +94,7 @@ events:
     experience: 
       start : 2018-08-06
       end : 2018-08-10
-      experience : IS-GEO Workshop and Training Institute 
+      experience : IS-GEO Workshop and Training Institute on Adaptive Sensing
     description: >
       Adaptive Sensing – Taking Scientists to the Sensors
       In 2018 the activities will focus on Adaptive Sensing by Taking the Scientists to the Sensors.  During the workshop we will visit field sites in 8 diverse ecosystems to deploy and test observational equipment and technology stacks.
