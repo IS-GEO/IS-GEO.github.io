@@ -1,0 +1,143 @@
+lectures:
+- date: August 6, 2019 
+  tag: [ expert series ] #workshop,meeting,conference,presentation,expert series
+  name: Agent Based Modeling of Humans and Their Environment, Marco Jansen, Senior Sustainability Scientist
+  speaker: Julie Ann Wrigley 
+  affiliation: 
+    - name: Global Institute of Sustainability 
+      title: Senior Sustainability Scientist
+    - name: School of Sustainability, Arizona State University
+      title: Professor
+
+- date: March 2019 
+  tag: [ expert series ] #workshop,meeting,conference,presentation,expert series
+  name: 'Adaptation Through Learning: Using Machine Learning to Improve Forest Wildfire Management'
+  speaker: Mark Crowley 
+  affiliation: 
+    - name: Department of Electrical and Computer Engineering
+      title: Assistant Professor
+    - name: Waterloo Artificial Intelligence Institute at the University of Waterloo
+      title: Assistant Professor
+
+- date: February 2019
+  tag: [ expert series ] #workshop,meeting,conference,presentation,expert series
+  name: ClimateNet Bringing the power of Deep Learning to the climate community via open datasets and architectures. 
+  speaker: Karthik Kashinath 
+  affiliation: 
+    - name: Big Data Center, NERSC (Lawrence Berkeley Lab)
+
+- date: January 2019
+  tag: [ expert series ] #workshop,meeting,conference,presentation,expert series
+  name: SWIMming Toward a Sustainable Water Future
+  speaker: Natalia Villanueva 
+  affiliation: 
+    - name: University of Texas at El Paso
+
+- date: December 2018
+  tag: [ expert series ] #workshop,meeting,conference,presentation,expert series
+  name: 'The ‘Ike Wai Project: A multi-faceted study of two Hawaiian aquifers.' 
+  speaker: Gwen Jacobs
+  affiliation: 
+    - name: University of Hawaii
+      title: Director of Cyberinfrastructure
+
+
+
+
+
+
+- date: November 2018 
+  tag: [ expert series ] #workshop,meeting,conference,presentation,expert series
+  name: Digital Technology and Living with Environmental Change 
+  speaker: Gordon Blair
+  affiliation: 
+    - name: Lancaster University.
+
+- date: October 2018 
+  tag: [ expert series ] #workshop,meeting,conference,presentation,expert series
+  name: ClimateNet, Community-contributed datasets with labeled instances of extreme weather patterns for deep learning analysis 
+  speaker: Mr. Prabhat
+  affiliation: 
+    - name: NSERC
+    - name: LBNL
+
+- date: September 2018
+  tag: [ expert series ] #workshop,meeting,conference,presentation,expert series
+  name: 'Climate change and health: preparing for a potentially unrecognizable future' 
+  speaker: Kristie L. Ebi
+  affiliation: 
+    - name: University of Washington.
+
+- date: August 2018
+  tag: [ expert series ] #workshop,meeting,conference,presentation,expert series
+  name:  'CSciBox: An Artificial Intelligence Tool for Complex Age-Depth Models' 
+  speaker: Elizabeth Bradley
+  affiliation: 
+    - name: CU Boulder.   
+
+- date: June 2018
+  tag: [ expert series ] #workshop,meeting,conference,presentation,expert series
+  name: AI for Earth 
+  speaker: Lucas Joppa
+  affiliation: 
+    - name: Microsoft Research
+
+- date: May 2018
+  tag: [ expert series ] #workshop,meeting,conference,presentation,expert series
+  name:  Zero-knowledge Spatio-temporal Inference, Modeling & Prediction 
+  speaker: Ishanu Chattopadhyay
+
+- date: April 2018
+  tag: [ expert series ] #workshop,meeting,conference,presentation,expert series
+  name:  Causality 101 for Geoscientists 
+  speaker: Imme Ebert-Uphoff
+
+- date: March 2018
+  tag: [ expert series ] #workshop,meeting,conference,presentation,expert series
+  name: Constructing Scenarios Using Science Fiction Prototyping 
+  speaker: Pat Keys
+
+- date: February 2018
+  tag: [ expert series ] #workshop,meeting,conference,presentation,expert series
+  name:  The National Map as Linked Data 
+  speaker: Krzysztof Janowicz
+
+- date: Dec 2017
+  tag: [ expert series ] #workshop,meeting,conference,presentation,expert series
+  name: FAIR Data 
+  speaker: Douglas Fils
+
+- date: November 2017
+  tag: [ expert series ] #workshop,meeting,conference,presentation,expert series
+  name: Computer-Aided Discovery 
+  speaker: Victor Pankratius
+
+- date: Sep 2017
+  tag: [ expert series ] #workshop,meeting,conference,presentation,expert series
+  name: Geoinformatics for Paleoscience 
+  speaker: Julien Emile-Geay
+
+- date: Aug 2017
+  tag: [ expert series ] #workshop,meeting,conference,presentation,expert series
+  name: Mining Mars Observation Targets 
+  speaker: Kiri L. Wagstaff
+
+- date: June 2017
+  tag: [ expert series ] #workshop,meeting,conference,presentation,expert series
+  name: Data and Models of Geosystems 
+  speaker: Mary Hill
+
+- date: May 2017
+  tag: [ expert series ] #workshop,meeting,conference,presentation,expert series
+  name: Simplifying the Reuse of Datasets & Models 
+  speaker: Scott Peckham
+
+- date: Apr 2017
+  tag: [ expert series ] #workshop,meeting,conference,presentation,expert series
+  name: AI for Extreme Event Reslience 
+  speaker: Ibrahim Demir
+
+- date: March 2017
+  tag: [ expert series ] #workshop,meeting,conference,presentation,expert series
+  name: Theory-guided Data Science 
+  speaker: Anuj Karpatne & Vipin Kumar

@@ -1,8 +1,10 @@
 {% assign _url = page.url | split: "/" %}
 {% assign current = _url[-1] | split: "." %}
 <header>
+ 
   <nav>
-    <ul>
+    <ul >
+      <li style="vertical-align: middle; text-align: left;">  <img src="{{ 'assets/img/IS-GEO-3c.svg' | relative_url }}" width="150"> </li>
       {% case current[0] %}
       {% when 'tags'%}
       <!-- tags -->
@@ -10,20 +12,44 @@
         <li class="btn-nav">Home</li>
       </a>
       <li class="current">Tags</li>
-      <a href="{{ site.url }}/portfolio">
-        <li class="btn-nav">Portfolio</li>
+      <a href="{{ site.url }}/resources">
+        <li class="btn-nav">Resources</li>
+      </a>
+      <a href="{{ site.url }}/events">
+        <li class="btn-nav">Events</li>
       </a>
       
       
-      <!-- portfolio -->
-      {% when 'portfolio'%}
+      <!-- Resources -->
+      {% when 'Resources'%}
       <a href="{{ site.url }}">
         <li class="btn-nav">Home</li>
       </a>
       <a href="{{ site.url }}/tags">
         <li class="btn-nav">Tags</li>
       </a>
+      <a href="{{ site.url }}/resources">
+        <li class="current btn-nav">Resources</li>
+      </a>
+      <a href="{{ site.url }}/events">
+        <li class="btn-nav">Events</li>
+      </a>
      
+      <!-- Events -->
+      {% when 'events'%}
+      <a href="{{ site.url }}">
+        <li class="btn-nav">Home</li>
+      </a>
+      <a href="{{ site.url }}/tags">
+        <li class="btn-nav">Tags</li>
+      </a>
+      <a href="{{ site.url }}/resources">
+        <li class="btn-nav">Resources</li>
+        </a>
+        <a href="{{ site.url }}/events">
+          <li class="current btn-nav">Events</li>
+      </a>
+
       {% else %}
       
       <!-- others -->
@@ -33,8 +59,8 @@
       <a href="{{ site.url }}/tags">
         <li class="btn-nav">Tags</li>
       </a>
-      <a href="{{ site.url }}/portfolio">
-        <li class="btn-nav">Portfolio</li>
+      <a href="{{ site.url }}/resources">
+        <li class="btn-nav">Resources</li>
         <a href="{{ site.url }}/events">
           <li class="btn-nav">Events</li>
         </a>

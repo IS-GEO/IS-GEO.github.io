@@ -1,8 +1,8 @@
 events:
-  - name: Workshop on Model-Based Reasoning
+  - name: IS-GEO22 Workshop on Model-Based Reasoning
     tag: [ workshop ] #workshop,meeting,conference,presentation,expert series
     url: https://is-geo.github.io/ISGEO-22
-    image: assets/event-files/isgeo22/isgeo-finalpresentations-group.png
+    image: assets/event-files/isgeo22/ISGEO22-emailheader.png
     collaborators:
       - name: Institute for Harnessing Data and Model Revolution in the Polar Regions (iHARP)
         logo: assets/logos/NSF_Official_logo.svg
@@ -27,11 +27,11 @@ events:
     experience:
       start : 2022-08-15
       end : 2022-08-19
-      experience : Workshop on Model-Based Reasoning <br> <em> (Virtual) </em>
+      experience : Workshop on Model-Based Reasoning 
     description: >
       IS-GEO and iHARP are pleased to announce a virtual workshop on Model-based Reasoning <a href="">https://is-geo.github.io/ISGEO-22/</a>. Invited expert, Dr. Deana Pennington from the University of Texas at El Paso (UTEP) brings prior expertise in evaluating social learning and model-based reasoning together with clear guidance for successful transdisciplinary team building. This workshop will provide methods that engage researchers across disciplines to explore how data and models can inform AI. Hands-on activities will support the development of conceptual models and participatory modeling implementation using data across applications in polar regions, hydrologic models, hazards planning, and climate change impacts on communities, as well as other topics salient to workshop participants.
  
-  - name:
+  - name: IS-GEO19 Workshop on Advanced Interdisciplinary Approaches for Discovery and Learning
     tag: Workshop #workshop,meeting,conference,presentation,expert series
     url:
     image: assets/event-files/isgeo19/IS-Geo2019Logo.png
@@ -46,30 +46,33 @@ events:
       - name: SparkFun Electronics
         logo: assets/logos/sparkfun-logo.svg
         url: https://www.sparkfun.com/
+      - name: Texas Advanced Computing Center (TACC)
+        logo: assets/logos/tacc-logo.svg
+        url: https://tacc.utexas.edu/
     location: Boulder, CO
     date: June 17-21, 2022
     experience:
       start : 2019-06-17
       end : 2019-06-21
-      experience : Advanced Interdisciplinary Approaches for Discovery and Learning <br> <em> Boulder, CO </em>
+      experience : Advanced Interdisciplinary Approaches for Discovery and Learning 
     description: >
       The IS-GEO 2019 Workshop took place in Boulder, CO June 17th-21st – <a href="https://is-geo.org/2018/10/02/is-geo-workshop-2019/">https://is-geo.org/2018/10/02/is-geo-workshop-2019/</a>
  
-  - name:
-    tag: Workshop
+  - name: 2019 AAAS Annual Meeting
+    tag: Meeting
     url:
-    image:
+    image: assets/logos/american-association-for-the-advancement-of-science-aaas-vector-logo.png
     collaborators:
-      - name: iHARP
-        logo:
-        url:
+      - name: American Association for the Advancement of Science
+        logo: assets/logos/aaas-logo.svg
+        url: https://meetings.aaas.org/
         grantor: 
-          - name: NSF
+          - name: 
             awardnumber: 
             url:
             logo:
-    location:
-    date: 
+    location: Washington DC
+    date: February 15, 2019
     description: >
       Join IS-GEO members at the 2019 AAAS Annual meeting in Washington DC, February 15th from 8-9:30am : Out session is titled “<em>How AI and Knowledge Centers are Changing Societal Views of Critical Earth Resources</em>” . See&nbsp;<a href="http://www.aaas.org/meetings" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable">www.<span id="0.1927139655136012" class="highlight">aaas</span>.org/meetings</a>&nbsp;where a meeting schedule will be available on Tuesday, October 9th.
   
@@ -78,9 +81,9 @@ events:
     url:
     image:
     collaborators:
-      - name: iHARP
-        logo:
-        url:
+      - name: Texas Advanced Computing Center (TACC)
+        logo: assets/logos/tacc-logo.svg
+        url: https://tacc.utexas.edu/
         grantor: 
           - name: NSF
             awardnumber: 
@@ -91,7 +94,7 @@ events:
     experience: 
       start : 2018-08-06
       end : 2018-08-10
-      experience : IS-GEO Workshop and Training Institute <br> <em> Hilo, HI </em> 
+      experience : IS-GEO Workshop and Training Institute 
     description: >
       Adaptive Sensing – Taking Scientists to the Sensors
       In 2018 the activities will focus on Adaptive Sensing by Taking the Scientists to the Sensors.  During the workshop we will visit field sites in 8 diverse ecosystems to deploy and test observational equipment and technology stacks.
@@ -101,7 +104,7 @@ events:
     url:
     image:
     collaborators:
-      - name: iHARP
+      - name: 
         logo:
         url:
         grantor: 
@@ -119,7 +122,7 @@ events:
     url:
     image:
     collaborators:
-      - name: iHARP
+      - name:
         logo:
         url:
         grantor: 
@@ -137,7 +140,7 @@ events:
     url:
     image:
     collaborators:
-      - name: iHARP
+      - name: 
         logo:
         url:
         grantor: 
@@ -155,9 +158,9 @@ events:
     url:
     image:
     collaborators:
-      - name: iHARP
-        logo:
-        url:
+      - name: Texas Advanced Computing Center (TACC)
+        logo: assets/logos/tacc-logo.svg
+        url: https://tacc.utexas.edu/
         grantor: 
           - name: NSF
             awardnumber: 
@@ -177,7 +180,7 @@ events:
     url:
     image:
     collaborators:
-      - name: iHARP
+      - name:
         logo:
         url:
         grantor: 
@@ -195,7 +198,7 @@ events:
     url:
     image:
     collaborators:
-      - name: iHARP
+      - name:
         logo:
         url:
         grantor: 
@@ -213,7 +216,7 @@ events:
     url:
     image:
     collaborators:
-      - name: iHARP
+      - name:
         logo:
         url:
         grantor: 
@@ -233,7 +236,7 @@ events:
     experience:
       start : 2015-04-26
       end : 2015-04-27
-      experience : Intelligent Systems Research to Support Geosciences and the EarthCube Mission <br> <em>Arlington, VA</em>
+      experience : Intelligent Systems Research to Support Geosciences and the EarthCube Mission
     description: >
       The goal of the workshop was to formulate a research agenda for intelligent systems that will result in fundamental new capabilities for understanding the Earth system. In geosciences, the workshop covered requirements from Earth, ocean, polar, and atmospheric and spatial sciences. In intelligent systems, the workshop included participation from fields such as information integration, machine learning, knowledge representation, semantics and metadata, geospatial computing, robotics, visualization, and augmented reality. The workshop builds on the momentum of the NSF EarthCube initiative for geosciences and was informed by ongoing cyberinfrastructure efforts.
 
@@ -242,7 +245,7 @@ events:
     url:
     image:
     collaborators:
-      - name: iHARP
+      - name:
         logo:
         url:
         grantor: 
@@ -260,7 +263,7 @@ events:
     url:
     image:
     collaborators:
-      - name: iHARP
+      - name:
         logo:
         url:
         grantor: 
@@ -278,7 +281,7 @@ events:
     url:
     image:
     collaborators:
-      - name: iHARP
+      - name:
         logo:
         url:
         grantor: 
@@ -296,7 +299,7 @@ events:
     url:
     image:
     collaborators:
-      - name: iHARP
+      - name:
         logo:
         url:
         grantor: 
@@ -314,7 +317,7 @@ events:
     url:
     image:
     collaborators:
-      - name: iHARP
+      - name:
         logo:
         url:
         grantor: 
@@ -332,7 +335,7 @@ events:
     url:
     image:
     collaborators:
-      - name: iHARP
+      - name:
         logo:
         url:
         grantor: 

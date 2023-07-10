@@ -52,8 +52,11 @@ layout: page
         {% for event in site.data.events.events %}
         {% if event.experience %}
         <li class="meta">
-          <p class="date">{{ event.experience.start }} ~ {{ event.experience.end }}</p>
-          <p class="description"><a href="{{ event.url }} ">  {{ event.experience.experience }} </a></p>
+          <p class="date">{{ event.date }}</p>
+          <p class="description"><a href="{{ event.url }} ">  {{ event.experience.experience }} </a> 
+          <br>
+            <em>{{ event.location}}</em> 
+        </p>
         </li>
         {% endif %}
         {% endfor %}
@@ -74,16 +77,27 @@ layout: page
         {% endfor %}
       </ul>
 
-      <p class="title">COLLABORATIVE ORGANIZATIONS</p>
+      <p class="title">IS-GEO EXPERT SERIES</p>
       <ul class="skill-list">
-        {% for _ in profile.skills %}
+        {% for lecture in site.data.expert-series.lectures %}
         <li class="skill">
-          <p class="name">{{ _.skill }}</p>
-          <div class="progress">
-            <div class="progress-bar" style="width: {{ _.value }}%">
-              <div class="progress-value">{{ _.value }}%</div>
-            </div>
-          </div>
+          <p> <em>[ {{ lecture.date }} ]</em> <br>  {{ lecture.name }} </p>
+          <p class="name">SPEAKER: {{ lecture.speaker }}
+            {% if lecture.affiliation %}
+              {% for aff in lecture.affiliation %}
+                  {% if aff.title %}
+                    <em> [ {{ aff.title }} ]</em> 
+                  {% endif %}
+                  - {{ aff.name }} <br>
+              {% endfor %}
+
+
+            {% endif %}
+
+
+          </p>
+          
+          
         </li>
         {% endfor %}
       </ul>
