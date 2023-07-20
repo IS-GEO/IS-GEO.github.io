@@ -7,9 +7,9 @@
     - name: OntoSoft Project
       url: https://www.ontosoft.org
       info: "The OntoSoft project is funded by the National Science Foundation under the EarthCube Initiative through grants ICER-1343800 and ICER-1440323"
-  icon: fa-solid fa-link
+  icon: fas fa-link
   iconcolor: $theme-bright
-  image: assets/logos/ontosoft-logo-small_1.png
+  image: assets/logos/ontosoft.png
   description: >
     OntoSoft is a platform to provide a community repository for geosciences software. Key features of OntoSoft are:
     Allowing contributors to specify structured metadata about software, including input requirements, physical variables and assumptions, and software runtime dependencies. OntoSoft uses this structured metadata to improve search, to facilitate software reuse, and to support software integration.

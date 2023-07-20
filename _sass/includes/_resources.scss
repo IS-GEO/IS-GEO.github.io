@@ -1,0 +1,119 @@
+.outer_resourcescontainer {
+    display: flexbox;
+    width: 100%;
+    //border: 2px solid #252D25;
+
+    .inner_resourcecontainer {
+        border-bottom: 2px solid $theme-dark;
+        //border-radius: 8px;
+        display: flex;
+        //width: 30px;
+        margin: 10px;
+        min-height: 200px;
+
+        .resourceimage {
+        
+            //max-height: 100%;
+            //max-width: 30%;
+            width: 200px;
+            text-align: center;
+            padding: 10px;
+           
+            //border: 2px solid red;
+            //background-color: $theme-dark;
+
+            h1 {
+                color: $theme-color;
+                text-transform: capitalize;
+            }
+            
+
+            img {
+                width: 100%;
+                //max-height: 100%;
+                object-fit: fill;
+                padding: 0px; 
+                margin: 0px;
+                border-radius: 8px;
+            }
+
+            .resourcedate {
+                font-size: small;
+                font-weight: bold;
+                color: white;  
+                padding-top: 0px; 
+                margin-top: 0px; 
+                border-radius: 8px;            
+    
+            }
+        }
+
+        
+
+        .resourcedata {
+            padding-left: 10px;
+            //border-left: 2px solid #8C8C8C;
+            width: 70%;
+
+            h2 {
+                font-size: medium;
+                font-weight: bold;
+                a {
+                    color: $theme-dark
+                }
+                a:hover{
+                    color: $theme-bright;
+                }
+            }
+
+            a {
+
+            }
+
+            p {
+                font-size: small;
+
+                a {
+                    font-size: small;
+                    color: #8C8C8C;
+                }
+
+                a:hover {
+                    font-size: small;
+                    font-weight: bold;
+                    color: $theme-bright;
+                }
+
+                
+            }
+
+            ul {
+                list-style: none;
+                
+
+                li {
+                    padding-left: 5%;
+                    
+                    a {
+                        font-size: small;
+                        font-weight: bold;
+                        color: $theme-bright;
+                        
+                    }
+
+                    a:hover {
+                        font-size: small;
+                        font-weight: bold;
+                        color: $theme-bright;
+                        text-decoration: underline;
+                    }
+                }
+
+            }
+
+            
+
+        }
+    }
+}
+

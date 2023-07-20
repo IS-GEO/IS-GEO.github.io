@@ -1,0 +1,58 @@
+
+
+<!-- This include page generates from _data/resources.yml  and styled by _sass/includes/_resources.scss-->
+<div class="outer_resourcescontainer">
+{% for resource in site.data.resources %}
+<div class="inner_resourcecontainer">
+    <div class="resourceimage">
+        {% if resource.image %}
+            
+            <img src="{{ resource.image | relative_url }}" alt="Image of {{ resource.name }}">
+
+        {% else %}
+            
+    
+        {% endif %}
+        
+
+    </div>
+    <div class="resourcedata">
+        <h2> 
+            
+            {% if resource.url contains '://' -%}
+            <a href="{{ resource.url }}"><i class="{{ resource.icon }}" 
+              style="color: {{ resource.iconcolor }}"></i> {{ resource.name }} - {{ resource.url }} </a> 
+            {%- else -%}
+            <a href="{{ resource.url | relative_url }}"><i class="{{ resource.icon }}" 
+            style="color: {{ resource.iconcolor }}"></i> {{ resource.name }} </a> 
+            {% endif %} 
+            
+            </h2>
+        <p> {{ resource.description }}</p>
+        {% if resource.collaborators %}
+        <ul>
+            {% for colab in resource.collaborators %}
+                <li>
+                    <a href="{{ colab.url }}">{{ colab.name }}</a>
+                </li>
+
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+{% endfor %}
+</div>
