@@ -1,0 +1,105 @@
+
+- name: Geoscience Case Studies and Benchmarks
+  tag: working group
+  links: 
+    - name: Mailing List
+      tag: mailing list #type of link paper, presentation, mailing list
+      url: http://mailman.isi.edu/mailman/listinfo/is-geo-cases
+      icon: far fa-paper-plane
+      iconcolor: $theme-dark2
+    - name: Wiki
+      tag: [ wiki ] #type of link paper, presentation, mailserve, archives
+      url: http://organicdatacuration.org/is-geo/index.php/Geoscience_Case_Studies
+      icon: fas fa-link
+      iconcolor: $theme-bright      
+    - name: "[Archived] FAQ and Discussion Board" 
+      tag: archives #type of link paper, presentation, mailserve
+      url: assets/pdfs/archives/benchmarks-WG-discussionfaq.pdf
+      icon: far fa-file-pdf
+      iconcolor: $theme-dark2
+    - name: "Benchmark #1: JPL-CH4-detection-2017-V1.0"
+      tag: dataset #type of link paper, presentation, mailing list
+      url: https://avirisng.jpl.nasa.gov/benchmark_methane_data.html
+      info: A Benchmark for Methane Source Detection from Imaging Spectrometer Data
+      icon: fas fa-link
+      iconcolor: $theme-dark2
+    - name: A Vision for the Development of Benchmarks to Bridge Geoscience and Data Science
+      tag: paper #type of link paper, presentation, mailserve
+      url: assets/pdfs/papers/CI2017_paper_15.pdf
+      info: "I. Ebert-Uphoff, D.R. Thompson, I. Demir, Y.R. Gel, M.C. Hill, A. Karpatne, M. Guereque, V. Kumar, E. Cabral-Cano, P. Smyth, A Vision for the Development of Benchmarks to Bridge Geoscience and Data Science, Proceedings of the Seventh International Workshop on Climate Informatics (CI 2017), NCAR Technical Note NCAR/TN-536+PROC, Sept 2017."
+      icon: far fa-file-pdf
+      iconcolor: $theme-dark2
+  description: >
+    Case Studies, Feature Detection and discovery. All data with a story that includes question and validation as GEO-driven case studies for IS researchers.
+    Benchmark datasets serve as summary descriptions of problem areas, providing a simple interface between disciplines without requiring extensive background knowledge.  
+    Each benchmark consists of a data set, along with a document that provides a quick introduction to the topic, provides a wishlist of analysis tasks and a quick interface (e.g. in Matlab or Python) to load and visualize the data. 
+
+- name: Education 
+  tag: working group
+  links: 
+    - name: Mailing List
+      tag: mailing list #type of link paper, presentation, mailing list
+      url: http://mailman.isi.edu/mailman/listinfo/is-geo-edu
+      icon: far fa-paper-plane
+      iconcolor: $theme-dark2
+    - name: Wiki
+      tag: [ wiki ] #type of link paper, presentation, mailserve, archives
+      url: http://organicdatacuration.org/is-geo/index.php/Education
+      icon: fas fa-link
+      iconcolor: $theme-bright      
+  #image: assets/logos/ontosoft-logo-small_1.png
+  description: >
+    Gathering, organizing and collecting all the materials from the different IS-GEO courses.
+
+- name: Modeling
+  tag: working group
+  links: 
+    - name: Mailing List
+      tag: mailing list #type of link paper, presentation, mailing list
+      url: http://mailman.isi.edu/mailman/listinfo/is-geo-modeling
+      icon: far fa-paper-plane
+      iconcolor: $theme-dark2
+     #- name: Wiki
+      #tag: [ wiki ] #type of link paper, presentation, mailserve, archives
+      #url: http://organicdatacuration.org/is-geo/index.php/Education
+      #icon: fas fa-link
+      #iconcolor: $theme-bright      
+  #image: assets/logos/ontosoft-logo-small_1.png
+  description: >
+     Aims to design a repository of geoscience models, with semantic descriptions of their characteristics using ontologies. 
+     The group will also discuss  how this repository would be used by scientists to find and compare models based on variables, 
+     assumptions, and functions.
+
+- name: Sensor-based data Collection and Integration 
+  tag: working group
+  links: 
+    - name: Mailing List
+      tag: mailing list #type of link paper, presentation, mailing list
+      url: http://mailman.isi.edu/mailman/listinfo/is-geo-dci
+      icon: far fa-paper-plane
+      iconcolor: $theme-dark2
+    - name: Wiki
+      tag: [ wiki ] #type of link paper, presentation, mailserve, archives
+      url: http://organicdatacuration.org/is-geo/index.php/Sensor-based_data_Collection_and_Integration
+      icon: fas fa-link
+      iconcolor: $theme-bright      
+  #image: assets/logos/ontosoft-logo-small_1.png
+  description: >
+    Aiming at the the analysis and integration of information from heterogeneous sources, with a possible application for early warning systems. 
+
+- name: Geo-Simulations
+  tag: working group
+  links: 
+    - name: Mailing List
+      tag: mailing list #type of link paper, presentation, mailing list
+      url: http://mailman.isi.edu/mailman/listinfo/is-geo-sim
+      icon: far fa-paper-plane
+      iconcolor: $theme-dark2
+    - name: Wiki
+      tag: [ wiki ] #type of link paper, presentation, mailserve, archives
+      url: http://organicdatacuration.org/is-geo/index.php/Geo-Simulations
+      icon: fas fa-link
+      iconcolor: $theme-bright      
+  #image: assets/logos/ontosoft-logo-small_1.png
+  description: >
+    Parametrizations, scales, integration of different models, etc.

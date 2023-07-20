@@ -4,6 +4,10 @@ layout: page
 ---
 {% assign profile = site.theme_settings.profile %}
 
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+    integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+
 </div><!-- This Tag means End .container  style="background-image: url('{{ site.url }}/assets/img/boulderfalls.JPG');" -->
 <div id="protfolio" >
  
@@ -62,19 +66,41 @@ layout: page
         {% endfor %}
       </ul>
 
-      <p class="title">WORKGROUPS</p>
-      <ul class="skill-list">
-        {% for _ in profile.skills %}
-        <li class="skill">
-          <p class="name">{{ _.skill }}</p>
-          <div class="progress">
-            <div class="progress-bar" style="width: {{ _.value }}%">
-              <div class="progress-value">{{ _.value }}%</div>
-            </div>
+      <section class="workinggroups">
+      <p class="title">WORKING GROUPS</p>
+      <ul class="groups-list">
+        {% for group in site.data.workinggroups %}
+        <li class="group">
+          <p class="groupname"><i class="fas fa-users"></i> &nbsp;&nbsp; {{ group.name }}</p>
+          <div >
+            <p class="groupdescription">{{ group.description }}</p>
+              
+            {% if  group.links %}
+            <ul class="grouplinks">
+              {% for link in group.links %}
+                <li class="grouplink">
+                {% if link.url contains '://' -%}
+                <a href="{{ link.url }}"><i class="{{ link.icon }}" 
+                  style="color: {{ link.iconcolor }}"></i> {{ link.name }} </a> 
+                {%- else -%}
+                <a href="{{ link.url | relative_url }}"><i class="{{ link.icon }}" 
+                style="color: {{ link.iconcolor }}"></i> {{ link.name }} </a> 
+                {% endif %} 
+                </li> 
+
+              {% endfor %}
+            </ul>
+            {% endif %}
+
+
+
+              
           </div>
         </li>
         {% endfor %}
       </ul>
+      </section>
+
     </article>
     <article class="skills col-12 col-md-6">
      
@@ -99,7 +125,7 @@ layout: page
 
           </p>
           
-          
+          <hr>
         </li>
         {% endfor %}
       </ul>
@@ -109,6 +135,5 @@ layout: page
 
   </section>
 
-  {% include projects.html %}
 </div>
 {% include footer.html %}
