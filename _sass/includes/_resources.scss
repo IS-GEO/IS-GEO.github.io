@@ -3,6 +3,7 @@
     width: 100%;
     //border: 2px solid #252D25;
 
+
     .inner_resourcecontainer {
         border-bottom: 2px solid $theme-dark;
         //border-radius: 8px;
@@ -118,5 +119,10 @@
 
         }
     }
+
+    .inner_resourcecontainer:hover {
+        background-color: whitesmoke;
+    }
 }
+
 

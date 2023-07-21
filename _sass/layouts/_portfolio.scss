@@ -124,6 +124,7 @@
         list-style-type: none;
         li.group {
           margin: 18px auto;
+          
           p.groupname {
             padding: 5px;
             text-transform: uppercase;
@@ -162,9 +163,11 @@
               
 
             }
+            
 
           }
         }
+        
       }
     }
 
@@ -174,6 +177,11 @@
         margin-top: 20px;
         margin-left: 3%;
         list-style-type: none;
+        
+        li.skill:hover {
+          background-color: whitesmoke;
+        }
+
         li.skill {
           margin: 18px auto;
           .name {
