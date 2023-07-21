@@ -1,14 +1,33 @@
 footer{
     @extend %page-padding;
+    display: flex;
+    border-top: 1px solid #e7e9ee;
+    background-color: whitesmoke;
+ 
+    
     .footer {
         text-align: center;
         font-size: 0.75rem;
-        padding-top: 30px!important;
-        border-top: 1px solid #e7e9ee;
+        //padding-top: 30px!important;
+        
+        
+        
         a {
             font-size: 0.75rem;
             font-weight: 600;
             color: $theme-color!important;
+        }
+
+        
+    }
+
+    .footerlogo{
+        width: 30%;
+        padding-top: 20px;
+        text-align: right;
+        img { 
+            height: 100px;
+            
         }
     }
 }
