@@ -1,0 +1,27 @@
+<div class="expertseries_outercontainer">
+
+      <ul class="skill-list">
+        {% for lecture in site.data.expert-series.lectures limit:10 %}
+        
+        <li class="skill">
+          <p> <em style="color: #EC9742; ">[ {{ lecture.date }} ]</em> <br>  {{ lecture.name }} </p>
+          <p class="name">SPEAKER: {{ lecture.speaker }}
+            {% if lecture.affiliation %}
+              {% for aff in lecture.affiliation %}
+                  {% if aff.title %}
+                    <em> [ {{ aff.title }} ]</em> 
+                  {% endif %}
+                  - {{ aff.name }} <br>
+              {% endfor %}
+
+
+            {% endif %}
+
+
+          </p>
+          
+          <hr>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>

@@ -173,11 +173,26 @@
 
     .skills {
       padding-top: 10px;
+
+      .skillend {
+        text-align: center;
+        font-style: italic;
+        background-color: whitesmoke;
+        padding: 5px;;
+        border: solid 1px $theme-dark2;
+
+        a:hover {
+          color: $theme-bright;
+        }
+        
+      }
+
+
       ul.skill-list {
         margin-top: 20px;
         margin-left: 3%;
         list-style-type: none;
-        
+
         li.skill:hover {
           background-color: whitesmoke;
         }
