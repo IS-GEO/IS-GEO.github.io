@@ -92,9 +92,13 @@
                     
                     </h2>
                 <p> {{ resource.info }}</p>
-                {% if resource.provider %}
+               
                 <ul>
-
+                    <li class="paper-groupname">
+                        <em>Provided by working group:</em> {{ group.name }}
+                    </li>
+                    
+                    {% if resource.provider %}
                     {% for provider in resource.provider %}
                         <li>
                             <a href="{{ provider.url }}">{{ provider.name }}</a> 
@@ -106,6 +110,68 @@
                         </li>
 
                     {% endfor %}
+                    {% endif %}
+                </ul>
+                
+
+            </div>
+            
+
+
+    </div>
+        {% endif %}
+        {% endfor %}
+
+        {% endfor %}
+    
+
+    <!-- Papers from events.yml -->
+
+    {% for event in site.data.events.events %}
+
+    {% for resource in event.links %}
+
+    {% if resource.tag contains 'paper' %}
+    <div class="inner_resourcecontainer">
+            <div class="resourceimage">
+                {% if resource.image %}
+                    
+                    <img src="{{ resource.image | relative_url }}" alt="Image of {{ resource.name }}">
+
+                {% else %}
+                    
+                    <h2>[ {{ resource.tag | upcase }} ]</h2>
+                    
+            
+                {% endif %}
+                
+
+            </div>
+            <div class="resourcedata">
+                <h2> 
+                    
+                    {% if resource.url contains '://' -%}
+                    <a href="{{ resource.url }}"><i class="{{ resource.icon }}" 
+                    style="color: {{ resource.iconcolor }}"></i> {{ resource.name }} <br> {{ resource.url }} </a> 
+                    {%- else -%}
+                    <a href="{{ resource.url | relative_url }}"><i class="{{ resource.icon }}" 
+                    style="color: {{ resource.iconcolor }}"></i> {{ resource.name }} </a> 
+                    {% endif %} 
+                    
+                    </h2>
+                <p> {{ resource.citation }}</p>
+                {% if event.name %}
+                <ul>
+                        <li>
+                            <a href="{{ event.url }}">{{ event.name }}</a> 
+                            
+                                <p>
+                                    {{ event.date }} {{ event.location }}
+                                </p>
+                           
+                        </li>
+
+
                 </ul>
                 {% endif %}
 
@@ -118,5 +184,6 @@
         {% endfor %}
 
         {% endfor %}
+
 
 </div>

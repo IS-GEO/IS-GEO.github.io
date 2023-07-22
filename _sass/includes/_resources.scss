@@ -94,6 +94,15 @@
 
             ul {
                 list-style: none;
+
+                li.paper-groupname {
+                    font-weight: bold;
+                    color: $theme-dark2;
+
+                    em {
+                        font-weight: normal;
+                    }
+                }
                 
 
                 li {

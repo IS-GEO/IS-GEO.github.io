@@ -276,14 +276,14 @@ events:
       - name: "Growing Intelligent Systems for Geosciences: Strengthening the Community and Connecting Curricular Designs"
         url: https://gsa.confex.com/gsa/2016AM/webprogram/Paper286969.html
         type: external site
-        tag: [paper]
+        tag: paper
         citation: 
         icon: fas fa-link
         iconcolor: black
       - name: "Intelligent Systems for Geosciences: Making a Difference One Scientist at a Time"
         url: https://gsa.confex.com/gsa/2016AM/webprogram/Paper285776.html
         type: external site
-        tag: [paper]
+        tag: paper
         citation: 
         icon: fas fa-link
         iconcolor: black
@@ -381,8 +381,8 @@ events:
         tag: paper
         citation: >
           Ebert-Uphoff, I., & Gil, Y. (2015). Exploring synergies between machine learning and knowledge representation to capture scientific knowledge. In Proceedings of the 1st International Workshop on Capturing Scientific Knowledge. Palisades, NY.
-        icon: fa-regular fa-file-pdf
-        iconcolor: red
+        icon: far fa-file-pdf
+        iconcolor: $theme-dark2
     description: >
       <a href="https://web.archive.org/web/20160129171500/http://www.isi.edu/ikcap/sciknow2015/">Workshop on “Capturing Scientific Knowledge”</a> at the ACM International Conference on Knowledge Capture on October 7, 2015 in Palisades NY, organized by Imme Ebert-Uphoff and Yolanda Gil, including a joint paper titled “Exploring Synergies between Machine Learning and Knowledge Representation to Capture Scientific Knowledge”
   
