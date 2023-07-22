@@ -39,6 +39,12 @@ events:
     url:
     image: assets/event-files/isgeo19/IS-Geo2019Logo.png
     collaborators:
+      - name: SparkFun Electronics
+        logo: assets/logos/sparkfun-logo.svg
+        url: https://www.sparkfun.com/
+      - name: Texas Advanced Computing Center (TACC)
+        logo: assets/logos/tacc-logo.svg
+        url: https://tacc.utexas.edu/
       - name: University Corporation for Atmospheric Research (UCAR)
         logo: assets/logos/UCAR-logo.svg
         url: https://www.ucar.edu/
@@ -46,12 +52,7 @@ events:
           - name: National Science Foundation (NSF)
             url: https://www.nsf.gov/
             logo: assets/logos/NSF_Official_logo.svg
-          - name: SparkFun Electronics
-            logo: assets/logos/sparkfun-logo.svg
-            url: https://www.sparkfun.com/
-          - name: Texas Advanced Computing Center (TACC)
-            logo: assets/logos/tacc-logo.svg
-            url: https://tacc.utexas.edu/
+          
           - name: EarthCube
             url: https://www.earthcube.org
             logo: assets/logos/earthcube.svg
