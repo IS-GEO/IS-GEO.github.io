@@ -15,5 +15,18 @@
     Allowing contributors to specify structured metadata about software, including input requirements, physical variables and assumptions, and software runtime dependencies. OntoSoft uses this structured metadata to improve search, to facilitate software reuse, and to support software integration.
     Assisting geoscientists to make their software more reusable. OntoSoft includes mini-tutorials to introduce geoscientists to topics such as licenses, software libraries, and software reuse.
     Maintaining compatibility with existing software catalogues , such as software repositories (e.g., GitHub) and model frameworks (e.g., CSDMS, CIG). OntoSoft includes links to software repositories, and import/export capabilities for model frameworks.
-  
+
+- name: Cloud HOsted Real-time Data Services (CHORDS)
+  url: https://earthcubeprojects-chords.github.io
+  tag: software
+  provider: 
+    - name: EarthCube
+      url: http://earthcube.org/group/chords
+      info: "CHORDS is being developed for the National Science Foundation’s EarthCube program under grants 1639750, 1639720, 1639640, 1639570 and 1639554."
+  icon: fas fa-link
+  iconcolor: $theme-bright
+  image: assets/logos/chords_logo_text.png
+  description: >
+    It is a real-time data service for the geosciences that provides an easy-to-use system to acquire, navigate, and distribute real-time 
+    data via cloud services and the Internet. CHORDS aims to lower the barrier to these services, especially for small instrument teams, and broaden access to real-time data for the geosciences community.
 

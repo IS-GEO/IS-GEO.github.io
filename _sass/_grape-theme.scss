@@ -1,25 +1,25 @@
 //Bootstrap
-@import 'bootstrap/bootstrap-grid';
+@import "bootstrap/bootstrap-grid";
 
-// Base 
-@import 'base/variable';
-@import 'base/global';
-@import 'base/utility';
-@import 'base/highlight';
+// Base
+@import "base/variable";
+@import "base/global";
+@import "base/utility";
+@import "base/highlight";
 
-// Layout 
-@import 'layouts/home';
-@import 'layouts/post';
-@import 'layouts/tags';
-@import 'layouts/portfolio';
-@import 'layouts/general';
+// Layout
+@import "layouts/home";
+@import "layouts/post";
+@import "layouts/tags";
+@import "layouts/portfolio";
+@import "layouts/general";
 
-// Include 
-@import 'includes/header';
-@import 'includes/aside';
-@import 'includes/footer';
-@import 'includes/projects';
-@import 'includes/modal';
-@import 'includes/events';
-@import 'includes/resources';
-@import 'includes/expertseries';
+// Include
+@import "includes/header";
+@import "includes/aside";
+@import "includes/footer";
+@import "includes/projects";
+@import "includes/modal";
+@import "includes/events";
+@import "includes/resources";
+@import "includes/expertseries";

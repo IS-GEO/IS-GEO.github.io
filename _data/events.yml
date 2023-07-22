@@ -22,6 +22,9 @@ events:
           - name: University of Texas at Austin
             logo: assets/logos/utexas-logo.svg
             url: https://www.utexas.edu/
+          - name: EarthCube
+            url: https://www.earthcube.org
+            logo: assets/logos/earthcube.svg
     location: Virtual
     date: August 15-19, 2022
     experience:
@@ -40,15 +43,18 @@ events:
         logo: assets/logos/UCAR-logo.svg
         url: https://www.ucar.edu/
         grantor: 
-          - name: National Science Foundation
+          - name: National Science Foundation (NSF)
             url: https://www.nsf.gov/
             logo: assets/logos/NSF_Official_logo.svg
-      - name: SparkFun Electronics
-        logo: assets/logos/sparkfun-logo.svg
-        url: https://www.sparkfun.com/
-      - name: Texas Advanced Computing Center (TACC)
-        logo: assets/logos/tacc-logo.svg
-        url: https://tacc.utexas.edu/
+          - name: SparkFun Electronics
+            logo: assets/logos/sparkfun-logo.svg
+            url: https://www.sparkfun.com/
+          - name: Texas Advanced Computing Center (TACC)
+            logo: assets/logos/tacc-logo.svg
+            url: https://tacc.utexas.edu/
+          - name: EarthCube
+            url: https://www.earthcube.org
+            logo: assets/logos/earthcube.svg
     location: Boulder, CO
     date: June 17-21, 2022
     experience:
@@ -60,35 +66,97 @@ events:
  
   - name: 2019 AAAS Annual Meeting
     tag: Meeting
-    url:
+    url: https://www.aaas.org/resources/2019-aaas-annual-meeting?adobe_mc=MCMID%3D90724211246888775543221985548713236944%7CMCORGID%3D242B6472541199F70A4C98A6%2540AdobeOrg%7CTS%3D1689971738
     image: assets/logos/american-association-for-the-advancement-of-science-aaas-vector-logo.png
     collaborators:
       - name: American Association for the Advancement of Science
         logo: assets/logos/aaas-logo.svg
         url: https://meetings.aaas.org/
-        grantor: 
-          - name: 
-            awardnumber: 
-            url:
-            logo:
     location: Washington DC
     date: February 15, 2019
     description: >
-      Join IS-GEO members at the 2019 AAAS Annual meeting in Washington DC, February 15th from 8-9:30am : Out session is titled “<em>How AI and Knowledge Centers are Changing Societal Views of Critical Earth Resources</em>” . See&nbsp;<a href="http://www.aaas.org/meetings" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable">www.<span id="0.1927139655136012" class="highlight">aaas</span>.org/meetings</a>&nbsp;where a meeting schedule will be available on Tuesday, October 9th.
+      Join IS-GEO members at the 2019 AAAS Annual meeting in Washington DC, February 15th from 8-9:30am : Out session is titled “How AI and Knowledge Centers are Changing Societal Views of Critical Earth Resources” . See <a href="https://www.aaas.org/resources/2019-aaas-annual-meeting?adobe_mc=MCMID%3D90724211246888775543221985548713236944%7CMCORGID%3D242B6472541199F70A4C98A6%2540AdobeOrg%7CTS%3D1689971738" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable">www.aaas.org/meetings</a> where a meeting schedule will be available on Tuesday, October 9th.
   
   - name: IS-GEO18 Workshop and Training Institute on Adaptive Sensing
     tag: Workshop
-    url:
-    image:
+    url: 
+    image: assets/event-files/isgeo2018/isgeo2018-workshop.png
     collaborators:
-      - name: Texas Advanced Computing Center (TACC)
-        logo: assets/logos/tacc-logo.svg
-        url: https://tacc.utexas.edu/
-        grantor: 
-          - name: NSF
-            awardnumber: 
-            url:
-            logo:
+      - name:	National Center for Atmospheric Research (NCAR)	
+        url:	https://ncar.ucar.edu/	
+        logo:	assets/logos/NCAR.svg
+      - name:	University of Hawaiʻi at Hilo	
+        url:	https://hilo.hawaii.edu/	
+        logo:	assets/logos/uhawii-hilo-logo.svg
+      - name:	University of Hawaiʻi at Mānoa	
+        url:	https://manoa.hawaii.edu	
+        logo:	assets/logos/uhm-white-logo.png
+      - name:	Puna Weather	
+        url:	http://www.punaweather.org/	
+        logo:	assets/logos/punaweather-logo.png
+      - name:	Ronin Institute	
+        url:	https://ronininstitute.org/	
+        logo:	assets/logos/RoninInstitute-logo.png
+      - name:	Virginia Tech	
+        url:	https://www.vt.edu/	
+        logo:	assets/logos/vt-logo.png
+      - name:	University of Texas at El Paso (UTEP)	
+        url:	https://www.utep.edu/	
+        logo:	assets/logos/utep-miners-logo-png-transparent.png
+      - name:	University of Colorado Boulder	
+        url:	https://www.colorado.edu/	
+        logo:	assets/logos/cu-boulder-logo-text-black.svg
+      - name:	Kansas University (KU)	
+        url:	https://ku.edu/	
+        logo:	assets/logos/KU_sig_2color.png
+      - name:	Oberlin College and Conservatory	
+        url:	https://www.oberlin.edu/	
+        logo:	assets/logos/oberlin-logo-2022-02.png
+      - name:	University of Minnesota	
+        url:	https://twin-cities.umn.edu/home	
+        logo:	assets/logos/University-of-Minnesota-Logo.png
+      - name:	Consortium of Universities for the Advancement of Hydrologic Science, Inc. (CUAHSI)	
+        url:	https://www.cuahsi.org/	
+        logo:	assets/logos/CUAHSI-logo.png
+      - name:	Ansible	
+        url:	https://www.ansible.com/	
+        logo:	assets/logos/Ansible_logo.svg
+      - name:	Established Program to Stimulate Competitive Research (EPSCoR) Hawai'i	
+        url:	https://hawaii.edu/epscor/	
+        logo:	assets/logos/epscor-logo.png
+      - name:	‘Ike Wai	
+        url:	http://ikewai.org/	
+        logo:	assets/logos/logo_ike_wai.jpg
+      - name:	University of Southern California	
+        url:	https://www.usc.edu/	
+        logo:	assets/logos/usc-logo.png
+      - name:	University Corporation for Atmospheric Research (UCAR)	
+        url:	https://www.ucar.edu/	
+        logo:	assets/logos/UCAR-logo.svg
+      - name:	Open-source Project for a Network Data Access Protocol (OPeNDAP)	
+        url:	https://www.opendap.org/	
+        logo:	assets/logos/OPeNDAP-logo.png
+      - name:	The Globe Program	
+        url:	https://www.globe.gov/	
+        logo:	assets/logos/globe_logo.png
+      - name:	The University of Texas Jackson School of Geosciences	
+        url:	https://www.jsg.utexas.edu/	
+        logo:	assets/logos/jsg_color_digital.png
+      - name:	University of Wyoming	
+        url:	https://www.uwyo.edu/index.html	
+        logo:	assets/logos/uofwyoming-logo.png
+      - name:	Texas Advanced Computing Center (TACC)	
+        url:	https://tacc.utexas.edu/	
+        logo:	assets/logos/tacc-logo.svg
+      - name:	National Science Foundation	
+        url:	https://www.nsf.gov	
+        logo:	assets/logos/NSF_Official_logo.svg
+      - name:	University of Texas at Austin	
+        url:	https://www.utexas.edu/	
+        logo:	assets/logos/utexas-logo.svg
+      - name: EarthCube
+        url: https://www.earthcube.org
+        logo: assets/logos/earthcube.svg
     location: Hilo, HI
     date: August 6-10, 2018
     experience: 
@@ -97,253 +165,235 @@ events:
       experience : IS-GEO Workshop and Training Institute on Adaptive Sensing
     description: >
       Adaptive Sensing – Taking Scientists to the Sensors
-      In 2018 the activities will focus on Adaptive Sensing by Taking the Scientists to the Sensors.  During the workshop we will visit field sites in 8 diverse ecosystems to deploy and test observational equipment and technology stacks.
+      In 2018 the activities will focus on Adaptive Sensing by Taking the Scientists to the Sensors. During the workshop we will visit field sites in 8 diverse ecosystems to deploy and test observational equipment and technology stacks.
   
-  - name:
-    tag: Workshop
-    url:
-    image:
+  - name: American Geophysical Union (AGU) 2018 Fall Meeting
+    tag: [conference, session]
+    url: https://agu.confex.com/agu/fm18/meetingapp.cgi/Home/0
+    image: assets/event-files/conferences/agu2018.png
     collaborators:
       - name: 
         logo:
         url:
-        grantor: 
-          - name: NSF
-            awardnumber: 
-            url:
-            logo:
-    location:
-    date:
+    location: Washington, D.C.
+    date: December9-14, 2018
     description: >
       IS-GEO will host 5 sessions at the 2018 AGU conference in Washington DC, more information available <a href="https://is-geo.org/agu-2018/">here</a>.
  
-  - name:
+  - name: 8th International Workshop on Climate Informatics
     tag: Workshop
-    url:
-    image:
+    url: https://www2.cisl.ucar.edu/events/workshops/climate-informatics/2018
+    image: assets/event-files/conferences/logo-ncar-active-2018-climateinformatics.png
     collaborators:
       - name:
         logo:
         url:
-        grantor: 
-          - name: NSF
-            awardnumber: 
-            url:
-            logo:
-    location:
-    date: 
+    location: Boulder, CO
+    date: September 20-21, 2018
     description: >
-      Join the 8th International Workshop on Climate Informatics on Sept 20-21, 2018, in Boulder, CO.&nbsp; See&nbsp;<a href="http://climateinformatics.org/">http://climateinformatics.org/</a>.
+      Join the 8th International Workshop on Climate Informatics on Sept 20-21, 2018, in Boulder, CO. <a href="https://www2.cisl.ucar.edu/events/workshops/climate-informatics/2018">http://climateinformatics.org/</a>.
  
-  - name:
-    tag: Workshop
-    url:
-    image:
+  - name: Mining Big Data in Climate and Environment
+    tag: [Workshop, conference]
+    url: https://archive.siam.org/meetings/sdm17/
+    image: assets/event-files/conferences/SDM17_logo.jpg
     collaborators:
       - name: 
         logo:
         url:
-        grantor: 
-          - name: NSF
-            awardnumber: 
-            url:
-            logo:
-    location:
-    date: 
+    location: Houston, TX
+    date: April 29, 2017
     description: >
-      Reaching the IS community: IS-GEO members Vipin Kumar, Shashi Shekhar and Imme Ebert-Uphoff, will chair a workshop on <a href="https://sites.google.com/a/umn.edu/mbdce-2017/home"> Mining Big Data in Climate and Environment </a>in Houston, TX&nbsp; on Sat. 4/29/2017 as part of the <a href="http://www.siam.org/meetings/sdm17/">SIAM International Conference on Data Mining (SDM17)</a>.
+      Reaching the IS community: IS-GEO members Vipin Kumar, Shashi Shekhar and Imme Ebert-Uphoff, will chair a workshop on Mining Big Data in Climate and Environment </a>in Houston, TX on Sat. 4/29/2017 as part of the <a href="http://www.siam.org/meetings/sdm17/">SIAM International Conference on Data Mining (SDM17)</a>.
  
-  - name:
-    tag: Workshop
-    url:
-    image:
+  - name: IS-GEO17 RCN Kickoff Meeting
+    tag: Meeting
+    url: https://github.com/IS-GEO/Materials
+    image: assets/event-files/isgeo17/isgeo17-welcome.png
     collaborators:
-      - name: Texas Advanced Computing Center (TACC)
-        logo: assets/logos/tacc-logo.svg
-        url: https://tacc.utexas.edu/
-        grantor: 
-          - name: NSF
-            awardnumber: 
-            url:
-            logo:
+      - name:	Texas Advanced Computing Center (TACC)	
+        url:	https://tacc.utexas.edu/	
+        logo:	assets/logos/tacc-logo.svg
+      - name:	National Science Foundation	
+        url:	https://www.nsf.gov	
+        logo:	assets/logos/NSF_Official_logo.svg
+      - name:	University of Texas at Austin	
+        url:	https://www.utexas.edu/	
+        logo:	assets/logos/utexas-logo.svg
+      - name: EarthCube
+        url: https://www.earthcube.org
+        logo: assets/logos/earthcube.svg
     location: Austin, TX
     date:  January 18-20, 2017
+    links:
+      - name: Agenda
+        url: assets/event-files/isgeo17/Agenda_for_IS-GEO_RCN_Jan17-Meeting.pdf
+        type: PDF
+        tag: agenda
+        citation: 
+        icon: fa-regular fa-file-pdf
+        iconcolor: red
+      - name: Notes
+        url: assets/event-files/isgeo17/IS-GEO January Workshop.pdf
+        type: PDF
+        tag: notes
+        citation: 
+        icon: fa-regular fa-file-pdf
+        iconcolor: red
     experience: 
       start : 2017-01-18
       end : 2017-01-20
       experience : IS-GEO RCN Kickoff Meeting
     description: > 
-      <a href="https://is-geo.org/2016/12/23/is-geo-rcn-kickoff-meeting-on-january/">IS-GEO RCN kickoff meeting</a> on Wed Jan 18 – Fri Jan 20, 2017 at UT Austin (Friday will be a half day). Check how to contribute <a href="http://is-geo.org/2016/12/23/is-geo-rcn-kickoff-meeting-on-january">here</a>.
+      <a href="https://github.com/IS-GEO/Materials">IS-GEO RCN kickoff meeting</a> on Wed Jan 18 – Fri Jan 20, 2017 at UT Austin (Friday will be a half day). Check how to contribute <a href="https://github.com/IS-GEO/Materials">here</a>.
       
-  - name:
-    tag: Workshop
-    url:
-    image:
+  - name: American Geophysical Union (AGU) 2016 Fall Meeting
+    tag: [conference, session]
+    url: https://agu.confex.com/agu/fm16/meetingapp.cgi/
+    image: assets/event-files/conferences/agu2016.png
     collaborators:
-      - name:
-        logo:
-        url:
-        grantor: 
-          - name: NSF
-            awardnumber: 
-            url:
-            logo:
-    location:
-    date: 
+      - name:	National Science Foundation	
+        url:	https://www.nsf.gov	
+        logo:	assets/logos/NSF_Official_logo.svg
+      - name: EarthCube
+        url: https://www.earthcube.org
+        logo: assets/logos/earthcube.svg
+    location: San Francisco, CA
+    date: December 12-16, 2016
     description: >
-      Several poster sessions and lightning talks (see <a href="https://agu.confex.com/agu/fm16/meetingapp.cgi/Session/18536">1</a>, <a href="https://agu.confex.com/agu/fm16/meetingapp.cgi/Session/13667">2</a>) at the <a href="https://fallmeeting.agu.org/2016/">the 2016 AGU conference</a> in San Francisco. Check more details <a href="https://is-geo.org/2016/12/22/is-geo-at-agu-2016/">on the related post</a>.
+      Several poster sessions and lightning talks (see <a href="https://agu.confex.com/agu/fm16/meetingapp.cgi/>1</a>, <a href="https://agu.confex.com/agu/fm16/meetingapp.cgi/Session/13667">2</a>) at the <a href="https://fallmeeting.agu.org/2016/">the 2016 AGU conference</a> in San Francisco. Check more details <a href="https://is-geo.org/2016/12/22/is-geo-at-agu-2016/">on the related post</a>.
   
-  - name:
-    tag: Workshop
-    url:
-    image:
+  - name: "Advanced Information Systems and the Geosciences: Visioning the Future Session"
+    tag: session
+    url: https://gsa.confex.com/gsa/2016AM/webprogram/Session40542.html
+    image: assets/logos/geologicalsocietyofamerica-logo.png
     collaborators:
       - name:
         logo:
         url:
-        grantor: 
-          - name: NSF
-            awardnumber: 
-            url:
-            logo:
-    location:
-    date: 
+    links:
+      - name: "Growing Intelligent Systems for Geosciences: Strengthening the Community and Connecting Curricular Designs"
+        url: https://gsa.confex.com/gsa/2016AM/webprogram/Paper286969.html
+        type: external site
+        tag: paper
+        citation: 
+        icon: fas fa-link
+        iconcolor: black
+      - name: "Intelligent Systems for Geosciences: Making a Difference One Scientist at a Time"
+        url: https://gsa.confex.com/gsa/2016AM/webprogram/Paper285776.html
+        type: external site
+        tag: paper
+        citation: 
+        icon: fas fa-link
+        iconcolor: black
+    location: Denver, Colorado
+    date: September 25-28, 2016
     description: >
-      IS-GEO was very well received in the<a href="https://gsa.confex.com/gsa/2016AM/webprogram/Session40542.html"> Advanced Information Systems and the Geosciences: Visioning the Future Session</a>, on&nbsp; GSA 2016.
+      IS-GEO was very well received in the<a href="https://gsa.confex.com/gsa/2016AM/webprogram/Session40542.html"> Advanced Information Systems and the Geosciences: Visioning the Future Session</a>, GSA 2016.
   
-  - name:
+  - name: Intelligent Systems Research to Support Geosciences and the EarthCube Mission
     tag: Workshop
-    url:
-    image:
+    url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1533930
+    image: assets/event-files/isgeo15/is-geo_humanandtechnologyplanet-14594169_l.png
     collaborators:
-      - name:
-        logo:
-        url:
-        grantor: 
-          - name: NSF
-            awardnumber: 
-            url:
-            logo:
+      - name:	National Science Foundation	
+        url:	https://www.nsf.gov	
+        award: 1533930
+        logo:	assets/logos/NSF_Official_logo.svg
+      - name: EarthCube
+        url: https://www.earthcube.org
+        logo: assets/logos/earthcube.svg
     location: Arlington, VA
     date: April 26-27, 2015
     links:
       - name: IS-GEO Final Report 2015
         url: assets/event-files/isgeo15/is-geo-report_30november2015-final.pdf
         type: PDF
+        tag: report
+        citation: 
         icon: fa-regular fa-file-pdf
         iconcolor: red
-
     experience:
       start : 2015-04-26
       end : 2015-04-27
       experience : Intelligent Systems Research to Support Geosciences and the EarthCube Mission
     description: >
-      The goal of the workshop was to formulate a research agenda for intelligent systems that will result in fundamental new capabilities for understanding the Earth system. In geosciences, the workshop covered requirements from Earth, ocean, polar, and atmospheric and spatial sciences. In intelligent systems, the workshop included participation from fields such as information integration, machine learning, knowledge representation, semantics and metadata, geospatial computing, robotics, visualization, and augmented reality. The workshop builds on the momentum of the NSF EarthCube initiative for geosciences and was informed by ongoing cyberinfrastructure efforts.
+      The goal of the workshop was to formulate a research agenda for intelligent systems that will result in fundamental new capabilities for understanding the Earth system. In geosciences, the workshop covered requirements 
+      from Earth, ocean, polar, and atmospheric and spatial sciences. In intelligent systems, the workshop included participation from fields such as information integration, machine learning, knowledge representation, semantics 
+      and metadata, geospatial computing, robotics, visualization, and augmented reality. The workshop builds on the momentum of the NSF EarthCube initiative for geosciences and was informed by ongoing cyberinfrastructure efforts.
 
-  - name:
-    tag: Workshop
-    url:
-    image:
+  - name: American Geophysical Union (AGU) 2015 Fall Meeting
+    tag: [conference, session, poster, presentation]
+    url: https://agu.confex.com/agu/fm15/meetingapp.cgi/
+    image: assets/event-files/conferences/agu2015.png
     collaborators:
       - name:
         logo:
         url:
-        grantor: 
-          - name: NSF
-            awardnumber: 
-            url:
-            logo:
-    location:
-    date: 
+    location: San Francisco, CA
+    date: December 14-18, 2015 
     description: >
-      Oral session at the <a href="http://fallmeeting.agu.org/2015/">American Geophysical Union (AGU) Fall Meeting</a> on December 17, 2015 in San Francisco titled <a href="https://agu.confex.com/agu/fm15/preliminaryview.cgi/Session8922">“Intelligent Systems Theory and Application in Geoscience”, conv<span class="aBn"><span class="aQJ">ened by Suzanne P</span></span>ierce and Sai Ravela, with oral presentations from Pierre Lermusiaux, Shanan Peters, Victor Pankratius, Sai Ravela, Suzanne Pierce, Eva Zanzerkia, and Mike Seablom among others</a>.
+      Poster, Oral session at the <a href="http://fallmeeting.agu.org/2015/">American Geophysical Union (AGU) Fall Meeting</a> on December 17, 2015 in San Francisco titled "Informatics and Intelligent Systems in Reproducible Geoscience Research" and "“Intelligent Systems Theory and Application in Geoscience” respectively, convened by Suzanne Pierce and Sai Ravela, with oral presentations from Pierre Lermusiaux, Shanan Peters, Victor Pankratius, Sai Ravela, Suzanne Pierce, Eva Zanzerkia, and Mike Seablom among others.
   
-  - name:
-    tag: Workshop
-    url:
-    image:
+  - name: Combining Knowledge in Intelligent Systems with Geosciences to Explore an Emerging Set of Research Opportunities
+    tag: presentation
+    url: https://gsa.confex.com/gsa/2015AM/webprogram/Paper270375.html
+    image: assets/logos/american-association-for-the-advancement-of-science-aaas-vector-logo.png
     collaborators:
       - name:
         logo:
         url:
-        grantor: 
-          - name: NSF
-            awardnumber: 
-            url:
-            logo:
-    location:
-    date: 
+    location: Baltimore, MD
+    date: November 4, 2015
     description: >
-      Poster session at the <a href="http://fallmeeting.agu.org/2015/">American Geophysical Union (AGU) Fall Meeting</a> on December 18, 2015 in San Francisco titled “<a href="https://agu.confex.com/agu/fm15/meetingapp.cgi/Session/10485">Informatics and Intelligent Systems in Reproducible Geoscience Research”, convened by Suzanne Pierce and Sai Ravela</a>, with sixteen presentations
+      Oral presentation at the <a href="http://community.geosociety.org/gsa2015/home">Geological Society of America (GSA) meeting</a> on November 4, 2015 in Baltimore titled <a href="https://gsa.confex.com/gsa/2015AM/webprogram/Paper270375.html">"Combining Knowledge in Intelligent Systems with Geosciences to Explore an Emerging Set of Research Opportunities”</a> by Suzanne Pierce, Basil Tikoff, and Yolanda Gil.
   
-  - name:
-    tag: Workshop
-    url:
-    image:
+  - name: Climate Informatics Workshop
+    tag: presentation
+    url: https://web.archive.org/web/20150928144134/http://www2.cisl.ucar.edu/events/ci2015
+    image: assets/event-files/conferences/CI2015-logo.png
     collaborators:
       - name:
         logo:
         url:
-        grantor: 
-          - name: NSF
-            awardnumber: 
-            url:
-            logo:
-    location:
-    date: 
+    location: Boulder, CO
+    date: September 24-25, 2015
     description: >
-      Oral presentation at the <a href="http://community.geosociety.org/gsa2015/home">Geological Society of America (GSA) meeting</a> on November 4, 2015 in Baltimore titled <a href="http://(https://gsa.confex.com/gsa/2015AM/webprogram/Paper270375.html">“Combining Knowledge in Intelligent Systems with Geosciences to Explore an Emerging Set of Research Opportunities” by Suzanne Pierce, Basil Tikoff, and&nbsp;<span class="il">Yolanda</span>&nbsp;Gil</a>
+      Sessions at the <a href="https://web.archive.org/web/20150928144134/http://www2.cisl.ucar.edu/events/ci2015">Climate Informatics Workshop</a> on September 24-25, 2015, 
+      including an invited talk by Imme Ebert-Uphoff titled “Knowledge discovery in climate science”, an invited talk by Yolanda Gil titled 
+      “Intelligent Systems for Climate Research: When Will Deep Learners Meet Deep Knowledge?”, and a panel on the topic “Encoding climate knowledge into climate learning”.
   
-  - name:
+  - name: Workshop on “Capturing Scientific Knowledge”
     tag: Workshop
-    url:
-    image:
+    url: https://web.archive.org/web/20160129171500/http://www.isi.edu/ikcap/sciknow2015/
+    image: assets/event-files/conferences/K-CAP-2015-banner700.png
     collaborators:
       - name:
         logo:
         url:
-        grantor: 
-          - name: NSF
-            awardnumber: 
-            url:
-            logo:
-    location:
-    date: 
+    location: Palisades, NY
+    date: October 7, 2015
+    links:
+      - name: Exploring Synergies between Machine Learning and Knowledge Representation to Capture Scientific Knowledge
+        url: assets/pdfs/papers/EbertUphoff.pdf
+        type: PDF
+        tag: paper
+        citation: >
+          Ebert-Uphoff, I., & Gil, Y. (2015). Exploring synergies between machine learning and knowledge representation to capture scientific knowledge. In Proceedings of the 1st International Workshop on Capturing Scientific Knowledge. Palisades, NY.
+        icon: fa-regular fa-file-pdf
+        iconcolor: red
     description: >
-      Sessions at the <a href="https://www2.cisl.ucar.edu/events/CI2015">Climate Informatics Workshop</a> on September 24-25, 2015, including an invited talk by Imme Ebert-Uphoff titled “Knowledge discovery in climate science”, an invited talk by&nbsp;<span class="il">Yolanda</span>&nbsp;Gil titled “Intelligent Systems for Climate Research: When Will Deep Learners Meet Deep Knowledge?”, and a panel on the topic “Encoding climate knowledge into climate learning”.
+      <a href="https://web.archive.org/web/20160129171500/http://www.isi.edu/ikcap/sciknow2015/">Workshop on “Capturing Scientific Knowledge”</a> at the ACM International Conference on Knowledge Capture on October 7, 2015 in Palisades NY, organized by Imme Ebert-Uphoff and Yolanda Gil, including a joint paper titled “Exploring Synergies between Machine Learning and Knowledge Representation to Capture Scientific Knowledge”
   
-  - name:
-    tag: Workshop
-    url:
-    image:
+  - name: EarthCube All Hands Meeting 2015
+    tag: [poster, presentation]
+    url: https://docs.google.com/document/d/1jbY758G-JEl5o924zPBKt2khrIqPl4UFjORkEZUmd5U/edit
+    image: assets/logos/logo_NSF_earthcube_combined.png
     collaborators:
       - name:
         logo:
-        url:
-        grantor: 
-          - name: NSF
-            awardnumber: 
-            url:
-            logo:
-    location:
-    date: 
+        url: 
+    location: Arlington, VA
+    date: May 27-29, 2015
     description: >
-      <a href="http://www.isi.edu/ikcap/sciknow2015/">Workshop on “Capturing Scientific Knowledge”</a> at the ACM International Conference on Knowledge Capture on October 7, 2015 in Palisades NY, organized by Imme Ebert-Uphoff and&nbsp;<span class="il">Yolanda</span>&nbsp;Gil, including a joint paper titled “Exploring Synergies between Machine Learning and Knowledge Representation to Capture Scientific Knowledge”
-  
-  - name:
-    tag: Workshop
-    url:
-    image:
-    collaborators:
-      - name:
-        logo:
-        url:
-        grantor: 
-          - name: NSF
-            awardnumber: 
-            url:
-            logo:
-    location:
-    date: 
-    description: >
-      Poster about the IS-GEO workshop presented at the EarthCube All Hands Meeting in June 2015 titled <a href="http://earthcube.org/forum/poster-submission/intelligent-systems-geosciences-ongoing-work-future-research-opportunities">“Intelligent Systems for Geosciences: Ongoing Work and Future Research Opportunities” presented by Suzanne Pierce, Yolanda Gil, Shanan Peters, Sai Ravela, and Basil Tikoff</a>
+      Poster about the IS-GEO workshop presented at the EarthCube All Hands Meeting in May 2015 titled “Intelligent Systems for Geosciences: Ongoing Work and Future Research Opportunities” presented by Suzanne Pierce, Yolanda Gil, Shanan Peters, Sai Ravela, and Basil Tikoff

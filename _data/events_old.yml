@@ -1,0 +1,349 @@
+events:
+  - name: IS-GEO22 Workshop on Model-Based Reasoning
+    tag: [ workshop ] #workshop,meeting,conference,presentation,expert series
+    url: https://is-geo.github.io/ISGEO-22
+    image: assets/event-files/isgeo22/ISGEO22-emailheader.png
+    collaborators:
+      - name: Institute for Harnessing Data and Model Revolution in the Polar Regions (iHARP)
+        logo: assets/logos/NSF_Official_logo.svg
+        url: https://iharp.umbc.edu/
+        grantor: 
+          - name: National Science Foundation
+            awardnumber: 2118285
+            logo: assets/logos/NSF_Official_logo.svg
+            url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2118285&HistoricalAwards=false
+      - name: Texas Advanced Computing Center (TACC)
+        logo: assets/logos/tacc-logo.svg
+        url: https://tacc.utexas.edu/
+        grantor: 
+          - name: National Science Foundation
+            logo: assets/logos/NSF_Official_logo.svg
+            url: https://www.nsf.gov
+          - name: University of Texas at Austin
+            logo: assets/logos/utexas-logo.svg
+            url: https://www.utexas.edu/
+    location: Virtual
+    date: August 15-19, 2022
+    experience:
+      start : 2022-08-15
+      end : 2022-08-19
+      experience : Workshop on Model-Based Reasoning 
+    description: >
+      IS-GEO and iHARP are pleased to announce a virtual workshop on Model-based Reasoning <a href="">https://is-geo.github.io/ISGEO-22/</a>. Invited expert, Dr. Deana Pennington from the University of Texas at El Paso (UTEP) brings prior expertise in evaluating social learning and model-based reasoning together with clear guidance for successful transdisciplinary team building. This workshop will provide methods that engage researchers across disciplines to explore how data and models can inform AI. Hands-on activities will support the development of conceptual models and participatory modeling implementation using data across applications in polar regions, hydrologic models, hazards planning, and climate change impacts on communities, as well as other topics salient to workshop participants.
+ 
+  - name: IS-GEO19 Workshop on Advanced Interdisciplinary Approaches for Discovery and Learning
+    tag: Workshop #workshop,meeting,conference,presentation,expert series
+    url:
+    image: assets/event-files/isgeo19/IS-Geo2019Logo.png
+    collaborators:
+      - name: University Corporation for Atmospheric Research (UCAR)
+        logo: assets/logos/UCAR-logo.svg
+        url: https://www.ucar.edu/
+        grantor: 
+          - name: National Science Foundation
+            url: https://www.nsf.gov/
+            logo: assets/logos/NSF_Official_logo.svg
+      - name: SparkFun Electronics
+        logo: assets/logos/sparkfun-logo.svg
+        url: https://www.sparkfun.com/
+      - name: Texas Advanced Computing Center (TACC)
+        logo: assets/logos/tacc-logo.svg
+        url: https://tacc.utexas.edu/
+    location: Boulder, CO
+    date: June 17-21, 2022
+    experience:
+      start : 2019-06-17
+      end : 2019-06-21
+      experience : Advanced Interdisciplinary Approaches for Discovery and Learning 
+    description: >
+      The IS-GEO 2019 Workshop took place in Boulder, CO June 17th-21st – <a href="https://is-geo.org/2018/10/02/is-geo-workshop-2019/">https://is-geo.org/2018/10/02/is-geo-workshop-2019/</a>
+ 
+  - name: 2019 AAAS Annual Meeting
+    tag: Meeting
+    url:
+    image: assets/logos/american-association-for-the-advancement-of-science-aaas-vector-logo.png
+    collaborators:
+      - name: American Association for the Advancement of Science
+        logo: assets/logos/aaas-logo.svg
+        url: https://meetings.aaas.org/
+        grantor: 
+          - name: 
+            awardnumber: 
+            url:
+            logo:
+    location: Washington DC
+    date: February 15, 2019
+    description: >
+      Join IS-GEO members at the 2019 AAAS Annual meeting in Washington DC, February 15th from 8-9:30am : Out session is titled “<em>How AI and Knowledge Centers are Changing Societal Views of Critical Earth Resources</em>” . See&nbsp;<a href="http://www.aaas.org/meetings" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable">www.<span id="0.1927139655136012" class="highlight">aaas</span>.org/meetings</a>&nbsp;where a meeting schedule will be available on Tuesday, October 9th.
+  
+  - name: IS-GEO18 Workshop and Training Institute on Adaptive Sensing
+    tag: Workshop
+    url:
+    image:
+    collaborators:
+      - name: Texas Advanced Computing Center (TACC)
+        logo: assets/logos/tacc-logo.svg
+        url: https://tacc.utexas.edu/
+        grantor: 
+          - name: NSF
+            awardnumber: 
+            url:
+            logo:
+    location: Hilo, HI
+    date: August 6-10, 2018
+    experience: 
+      start : 2018-08-06
+      end : 2018-08-10
+      experience : IS-GEO Workshop and Training Institute on Adaptive Sensing
+    description: >
+      Adaptive Sensing – Taking Scientists to the Sensors
+      In 2018 the activities will focus on Adaptive Sensing by Taking the Scientists to the Sensors.  During the workshop we will visit field sites in 8 diverse ecosystems to deploy and test observational equipment and technology stacks.
+  
+  - name:
+    tag: Workshop
+    url:
+    image:
+    collaborators:
+      - name: 
+        logo:
+        url:
+        grantor: 
+          - name: NSF
+            awardnumber: 
+            url:
+            logo:
+    location:
+    date:
+    description: >
+      IS-GEO will host 5 sessions at the 2018 AGU conference in Washington DC, more information available <a href="https://is-geo.org/agu-2018/">here</a>.
+ 
+  - name:
+    tag: Workshop
+    url:
+    image:
+    collaborators:
+      - name:
+        logo:
+        url:
+        grantor: 
+          - name: NSF
+            awardnumber: 
+            url:
+            logo:
+    location:
+    date: 
+    description: >
+      Join the 8th International Workshop on Climate Informatics on Sept 20-21, 2018, in Boulder, CO.&nbsp; See&nbsp;<a href="http://climateinformatics.org/">http://climateinformatics.org/</a>.
+ 
+  - name:
+    tag: Workshop
+    url:
+    image:
+    collaborators:
+      - name: 
+        logo:
+        url:
+        grantor: 
+          - name: NSF
+            awardnumber: 
+            url:
+            logo:
+    location:
+    date: 
+    description: >
+      Reaching the IS community: IS-GEO members Vipin Kumar, Shashi Shekhar and Imme Ebert-Uphoff, will chair a workshop on <a href="https://sites.google.com/a/umn.edu/mbdce-2017/home"> Mining Big Data in Climate and Environment </a>in Houston, TX&nbsp; on Sat. 4/29/2017 as part of the <a href="http://www.siam.org/meetings/sdm17/">SIAM International Conference on Data Mining (SDM17)</a>.
+ 
+  - name:
+    tag: Workshop
+    url:
+    image:
+    collaborators:
+      - name: Texas Advanced Computing Center (TACC)
+        logo: assets/logos/tacc-logo.svg
+        url: https://tacc.utexas.edu/
+        grantor: 
+          - name: NSF
+            awardnumber: 
+            url:
+            logo:
+    location: Austin, TX
+    date:  January 18-20, 2017
+    experience: 
+      start : 2017-01-18
+      end : 2017-01-20
+      experience : IS-GEO RCN Kickoff Meeting
+    description: > 
+      <a href="https://is-geo.org/2016/12/23/is-geo-rcn-kickoff-meeting-on-january/">IS-GEO RCN kickoff meeting</a> on Wed Jan 18 – Fri Jan 20, 2017 at UT Austin (Friday will be a half day). Check how to contribute <a href="http://is-geo.org/2016/12/23/is-geo-rcn-kickoff-meeting-on-january">here</a>.
+      
+  - name:
+    tag: Workshop
+    url:
+    image:
+    collaborators:
+      - name:
+        logo:
+        url:
+        grantor: 
+          - name: NSF
+            awardnumber: 
+            url:
+            logo:
+    location:
+    date: 
+    description: >
+      Several poster sessions and lightning talks (see <a href="https://agu.confex.com/agu/fm16/meetingapp.cgi/Session/18536">1</a>, <a href="https://agu.confex.com/agu/fm16/meetingapp.cgi/Session/13667">2</a>) at the <a href="https://fallmeeting.agu.org/2016/">the 2016 AGU conference</a> in San Francisco. Check more details <a href="https://is-geo.org/2016/12/22/is-geo-at-agu-2016/">on the related post</a>.
+  
+  - name:
+    tag: Workshop
+    url:
+    image:
+    collaborators:
+      - name:
+        logo:
+        url:
+        grantor: 
+          - name: NSF
+            awardnumber: 
+            url:
+            logo:
+    location:
+    date: 
+    description: >
+      IS-GEO was very well received in the<a href="https://gsa.confex.com/gsa/2016AM/webprogram/Session40542.html"> Advanced Information Systems and the Geosciences: Visioning the Future Session</a>, on&nbsp; GSA 2016.
+  
+  - name:
+    tag: Workshop
+    url:
+    image:
+    collaborators:
+      - name:
+        logo:
+        url:
+        grantor: 
+          - name: NSF
+            awardnumber: 
+            url:
+            logo:
+    location: Arlington, VA
+    date: April 26-27, 2015
+    links:
+      - name: IS-GEO Final Report 2015
+        url: assets/event-files/isgeo15/is-geo-report_30november2015-final.pdf
+        type: PDF
+        icon: fa-regular fa-file-pdf
+        iconcolor: red
+
+    experience:
+      start : 2015-04-26
+      end : 2015-04-27
+      experience : Intelligent Systems Research to Support Geosciences and the EarthCube Mission
+    description: >
+      The goal of the workshop was to formulate a research agenda for intelligent systems that will result in fundamental new capabilities for understanding the Earth system. In geosciences, the workshop covered requirements from Earth, ocean, polar, and atmospheric and spatial sciences. In intelligent systems, the workshop included participation from fields such as information integration, machine learning, knowledge representation, semantics and metadata, geospatial computing, robotics, visualization, and augmented reality. The workshop builds on the momentum of the NSF EarthCube initiative for geosciences and was informed by ongoing cyberinfrastructure efforts.
+
+  - name:
+    tag: Workshop
+    url:
+    image:
+    collaborators:
+      - name:
+        logo:
+        url:
+        grantor: 
+          - name: NSF
+            awardnumber: 
+            url:
+            logo:
+    location:
+    date: 
+    description: >
+      Oral session at the <a href="http://fallmeeting.agu.org/2015/">American Geophysical Union (AGU) Fall Meeting</a> on December 17, 2015 in San Francisco titled <a href="https://agu.confex.com/agu/fm15/preliminaryview.cgi/Session8922">“Intelligent Systems Theory and Application in Geoscience”, conv<span class="aBn"><span class="aQJ">ened by Suzanne P</span></span>ierce and Sai Ravela, with oral presentations from Pierre Lermusiaux, Shanan Peters, Victor Pankratius, Sai Ravela, Suzanne Pierce, Eva Zanzerkia, and Mike Seablom among others</a>.
+  
+  - name:
+    tag: Workshop
+    url:
+    image:
+    collaborators:
+      - name:
+        logo:
+        url:
+        grantor: 
+          - name: NSF
+            awardnumber: 
+            url:
+            logo:
+    location:
+    date: 
+    description: >
+      Poster session at the <a href="http://fallmeeting.agu.org/2015/">American Geophysical Union (AGU) Fall Meeting</a> on December 18, 2015 in San Francisco titled “<a href="https://agu.confex.com/agu/fm15/meetingapp.cgi/Session/10485">Informatics and Intelligent Systems in Reproducible Geoscience Research”, convened by Suzanne Pierce and Sai Ravela</a>, with sixteen presentations
+  
+  - name:
+    tag: Workshop
+    url:
+    image:
+    collaborators:
+      - name:
+        logo:
+        url:
+        grantor: 
+          - name: NSF
+            awardnumber: 
+            url:
+            logo:
+    location:
+    date: 
+    description: >
+      Oral presentation at the <a href="http://community.geosociety.org/gsa2015/home">Geological Society of America (GSA) meeting</a> on November 4, 2015 in Baltimore titled <a href="http://(https://gsa.confex.com/gsa/2015AM/webprogram/Paper270375.html">“Combining Knowledge in Intelligent Systems with Geosciences to Explore an Emerging Set of Research Opportunities” by Suzanne Pierce, Basil Tikoff, and&nbsp;<span class="il">Yolanda</span>&nbsp;Gil</a>
+  
+  - name:
+    tag: Workshop
+    url:
+    image:
+    collaborators:
+      - name:
+        logo:
+        url:
+        grantor: 
+          - name: NSF
+            awardnumber: 
+            url:
+            logo:
+    location:
+    date: 
+    description: >
+      Sessions at the <a href="https://www2.cisl.ucar.edu/events/CI2015">Climate Informatics Workshop</a> on September 24-25, 2015, including an invited talk by Imme Ebert-Uphoff titled “Knowledge discovery in climate science”, an invited talk by&nbsp;<span class="il">Yolanda</span>&nbsp;Gil titled “Intelligent Systems for Climate Research: When Will Deep Learners Meet Deep Knowledge?”, and a panel on the topic “Encoding climate knowledge into climate learning”.
+  
+  - name:
+    tag: Workshop
+    url:
+    image:
+    collaborators:
+      - name:
+        logo:
+        url:
+        grantor: 
+          - name: NSF
+            awardnumber: 
+            url:
+            logo:
+    location:
+    date: 
+    description: >
+      <a href="http://www.isi.edu/ikcap/sciknow2015/">Workshop on “Capturing Scientific Knowledge”</a> at the ACM International Conference on Knowledge Capture on October 7, 2015 in Palisades NY, organized by Imme Ebert-Uphoff and&nbsp;<span class="il">Yolanda</span>&nbsp;Gil, including a joint paper titled “Exploring Synergies between Machine Learning and Knowledge Representation to Capture Scientific Knowledge”
+  
+  - name:
+    tag: Workshop
+    url:
+    image:
+    collaborators:
+      - name:
+        logo:
+        url:
+        grantor: 
+          - name: NSF
+            awardnumber: 
+            url:
+            logo:
+    location:
+    date: 
+    description: >
+      Poster about the IS-GEO workshop presented at the EarthCube All Hands Meeting in June 2015 titled <a href="http://earthcube.org/forum/poster-submission/intelligent-systems-geosciences-ongoing-work-future-research-opportunities">“Intelligent Systems for Geosciences: Ongoing Work and Future Research Opportunities” presented by Suzanne Pierce, Yolanda Gil, Shanan Peters, Sai Ravela, and Basil Tikoff</a>

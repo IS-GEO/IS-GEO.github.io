@@ -6,11 +6,11 @@
 <div class="inner_eventcontainer">
     <div class="eventimage">
         {% if event.image %}
-            <h1>{{ event.tag }}</h1>
+           
             <img src="{{ event.image | relative_url }}" alt="Image of {{ event.name }}">
 
         {% else %}
-            <h1>{{ event.tag }}</h1>
+  
     
         {% endif %}
         <div class="eventdate">
@@ -20,11 +20,18 @@
     </div>
     <div class="eventdata">
         <h2> {{ event.name }}</h2>
+        {% if event.tag %}
+        <ul class="tag-list">
+        {% for tag in event.tag %}
+            <li class="tag-list">{{ tag | downcase }}</li>
+        {% endfor %}
+        </ul>
+        {% endif %}
         <p> {{ event.description }}</p>
         {% if event.collaborators %}
-        <ul>
+        <ul class="colab-list">
             {% for colab in event.collaborators %}
-                <li>
+                <li class="colab-list">
                     <a href="{{ colab.url }}">{{ colab.name }}</a>
                 </li>
 

@@ -2,7 +2,9 @@
 
 <!-- This include page generates from _data/resources.yml  and styled by _sass/includes/_resources.scss-->
 <div class="outer_resourcescontainer">
+    
 {% for resource in site.data.resources %}
+
 <div class="inner_resourcecontainer">
     <div class="resourceimage">
         {% if resource.image %}
@@ -21,7 +23,7 @@
             
             {% if resource.url contains '://' -%}
             <a href="{{ resource.url }}"><i class="{{ resource.icon }}" 
-              style="color: {{ resource.iconcolor }}"></i> {{ resource.name }} - {{ resource.url }} </a> 
+              style="color: {{ resource.iconcolor }}"></i> {{ resource.name }} <br> {{ resource.url }} </a> 
             {%- else -%}
             <a href="{{ resource.url | relative_url }}"><i class="{{ resource.icon }}" 
             style="color: {{ resource.iconcolor }}"></i> {{ resource.name }} </a> 
@@ -47,79 +49,74 @@
         {% endif %}
 
     </div>
-    {% endfor %}
     </div>
+    {% endfor %}
+    
 
 
-    <!-- Papers -->
-    <div class="outer_resourcescontainer">
+</div>
+
+
+<!-- Papers -->
+<div class="outer_resourcescontainer">
     {% for group in site.data.workinggroups %}
 
     {% for resource in group.links %}
 
     {% if resource.tag contains 'paper' %}
-<div class="inner_resourcecontainer">
-    <div class="resourceimage">
-        {% if resource.image %}
-            
-            <img src="{{ resource.image | relative_url }}" alt="Image of {{ resource.name }}">
+    <div class="inner_resourcecontainer">
+            <div class="resourceimage">
+                {% if resource.image %}
+                    
+                    <img src="{{ resource.image | relative_url }}" alt="Image of {{ resource.name }}">
 
-        {% else %}
+                {% else %}
+                    
+                    <h2>[ {{ resource.tag | upcase }} ]</h2>
+                    
             
-            <h2>[ {{ resource.tag | upcase }} ]</h2>
+                {% endif %}
+                
+
+            </div>
+            <div class="resourcedata">
+                <h2> 
+                    
+                    {% if resource.url contains '://' -%}
+                    <a href="{{ resource.url }}"><i class="{{ resource.icon }}" 
+                    style="color: {{ resource.iconcolor }}"></i> {{ resource.name }} <br> {{ resource.url }} </a> 
+                    {%- else -%}
+                    <a href="{{ resource.url | relative_url }}"><i class="{{ resource.icon }}" 
+                    style="color: {{ resource.iconcolor }}"></i> {{ resource.name }} </a> 
+                    {% endif %} 
+                    
+                    </h2>
+                <p> {{ resource.info }}</p>
+                {% if resource.provider %}
+                <ul>
+
+                    {% for provider in resource.provider %}
+                        <li>
+                            <a href="{{ provider.url }}">{{ provider.name }}</a> 
+                            {% if provider.info %}
+                                <p>
+                                    {{ provider.info }}
+                                </p>
+                            {% endif %}
+                        </li>
+
+                    {% endfor %}
+                </ul>
+                {% endif %}
+
+            </div>
             
-    
-        {% endif %}
-        
+
 
     </div>
-    <div class="resourcedata">
-        <h2> 
-            
-            {% if resource.url contains '://' -%}
-            <a href="{{ resource.url }}"><i class="{{ resource.icon }}" 
-              style="color: {{ resource.iconcolor }}"></i> {{ resource.name }} - {{ resource.url }} </a> 
-            {%- else -%}
-            <a href="{{ resource.url | relative_url }}"><i class="{{ resource.icon }}" 
-            style="color: {{ resource.iconcolor }}"></i> {{ resource.name }} </a> 
-            {% endif %} 
-            
-            </h2>
-        <p> {{ resource.info }}</p>
-        {% if resource.provider %}
-        <ul>
-
-            {% for provider in resource.provider %}
-                <li>
-                    <a href="{{ provider.url }}">{{ provider.name }}</a> 
-                    {% if provider.info %}
-                        <p>
-                            {{ provider.info }}
-                        </p>
-                    {% endif %}
-                </li>
-
-            {% endfor %}
-        </ul>
         {% endif %}
+        {% endfor %}
 
-    </div>
-    
-
-
-</div>
-{% endif %}
-{% endfor %}
-
-{% endfor %}
-
-
-
-
-
-
-
-
-
+        {% endfor %}
 
 </div>
