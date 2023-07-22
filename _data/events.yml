@@ -35,7 +35,7 @@ events:
       IS-GEO and iHARP are pleased to announce a virtual workshop on Model-based Reasoning <a href="">https://is-geo.github.io/ISGEO-22/</a>. Invited expert, Dr. Deana Pennington from the University of Texas at El Paso (UTEP) brings prior expertise in evaluating social learning and model-based reasoning together with clear guidance for successful transdisciplinary team building. This workshop will provide methods that engage researchers across disciplines to explore how data and models can inform AI. Hands-on activities will support the development of conceptual models and participatory modeling implementation using data across applications in polar regions, hydrologic models, hazards planning, and climate change impacts on communities, as well as other topics salient to workshop participants.
  
   - name: IS-GEO19 Workshop on Advanced Interdisciplinary Approaches for Discovery and Learning
-    tag: Workshop #workshop,meeting,conference,presentation,expert series
+    tag: [Workshop] #workshop,meeting,conference,presentation,expert series
     url:
     image: assets/event-files/isgeo19/IS-Geo2019Logo.png
     collaborators:
@@ -66,7 +66,7 @@ events:
       The IS-GEO 2019 Workshop took place in Boulder, CO June 17th-21st – <a href="https://is-geo.org/2018/10/02/is-geo-workshop-2019/">https://is-geo.org/2018/10/02/is-geo-workshop-2019/</a>
  
   - name: 2019 AAAS Annual Meeting
-    tag: Meeting
+    tag: [Meeting]
     url: https://www.aaas.org/resources/2019-aaas-annual-meeting?adobe_mc=MCMID%3D90724211246888775543221985548713236944%7CMCORGID%3D242B6472541199F70A4C98A6%2540AdobeOrg%7CTS%3D1689971738
     image: assets/logos/american-association-for-the-advancement-of-science-aaas-vector-logo.png
     collaborators:
@@ -79,7 +79,7 @@ events:
       Join IS-GEO members at the 2019 AAAS Annual meeting in Washington DC, February 15th from 8-9:30am : Out session is titled “How AI and Knowledge Centers are Changing Societal Views of Critical Earth Resources” . See <a href="https://www.aaas.org/resources/2019-aaas-annual-meeting?adobe_mc=MCMID%3D90724211246888775543221985548713236944%7CMCORGID%3D242B6472541199F70A4C98A6%2540AdobeOrg%7CTS%3D1689971738" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable">www.aaas.org/meetings</a> where a meeting schedule will be available on Tuesday, October 9th.
   
   - name: IS-GEO18 Workshop and Training Institute on Adaptive Sensing
-    tag: Workshop
+    tag: [Workshop]
     url: 
     image: assets/event-files/isgeo2018/isgeo2018-workshop.png
     collaborators:
@@ -182,7 +182,7 @@ events:
       IS-GEO will host 5 sessions at the 2018 AGU conference in Washington DC, more information available <a href="https://is-geo.org/agu-2018/">here</a>.
  
   - name: 8th International Workshop on Climate Informatics
-    tag: Workshop
+    tag: [Workshop]
     url: https://www2.cisl.ucar.edu/events/workshops/climate-informatics/2018
     image: assets/event-files/conferences/logo-ncar-active-2018-climateinformatics.png
     collaborators:
@@ -208,7 +208,7 @@ events:
       Reaching the IS community: IS-GEO members Vipin Kumar, Shashi Shekhar and Imme Ebert-Uphoff, will chair a workshop on Mining Big Data in Climate and Environment </a>in Houston, TX on Sat. 4/29/2017 as part of the <a href="http://www.siam.org/meetings/sdm17/">SIAM International Conference on Data Mining (SDM17)</a>.
  
   - name: IS-GEO17 RCN Kickoff Meeting
-    tag: Meeting
+    tag: [Meeting]
     url: https://github.com/IS-GEO/Materials
     image: assets/event-files/isgeo17/isgeo17-welcome.png
     collaborators:
@@ -230,14 +230,14 @@ events:
       - name: Agenda
         url: assets/event-files/isgeo17/Agenda_for_IS-GEO_RCN_Jan17-Meeting.pdf
         type: PDF
-        tag: agenda
+        tag: [agenda]
         citation: 
         icon: fa-regular fa-file-pdf
         iconcolor: red
       - name: Notes
         url: assets/event-files/isgeo17/IS-GEO January Workshop.pdf
         type: PDF
-        tag: notes
+        tag: [notes]
         citation: 
         icon: fa-regular fa-file-pdf
         iconcolor: red
@@ -265,7 +265,7 @@ events:
       Several poster sessions and lightning talks (see <a href="https://agu.confex.com/agu/fm16/meetingapp.cgi/>1</a>, <a href="https://agu.confex.com/agu/fm16/meetingapp.cgi/Session/13667">2</a>) at the <a href="https://fallmeeting.agu.org/2016/">the 2016 AGU conference</a> in San Francisco. Check more details <a href="https://is-geo.org/2016/12/22/is-geo-at-agu-2016/">on the related post</a>.
   
   - name: "Advanced Information Systems and the Geosciences: Visioning the Future Session"
-    tag: session
+    tag: [session]
     url: https://gsa.confex.com/gsa/2016AM/webprogram/Session40542.html
     image: assets/logos/geologicalsocietyofamerica-logo.png
     collaborators:
@@ -276,14 +276,14 @@ events:
       - name: "Growing Intelligent Systems for Geosciences: Strengthening the Community and Connecting Curricular Designs"
         url: https://gsa.confex.com/gsa/2016AM/webprogram/Paper286969.html
         type: external site
-        tag: paper
+        tag: [paper]
         citation: 
         icon: fas fa-link
         iconcolor: black
       - name: "Intelligent Systems for Geosciences: Making a Difference One Scientist at a Time"
         url: https://gsa.confex.com/gsa/2016AM/webprogram/Paper285776.html
         type: external site
-        tag: paper
+        tag: [paper]
         citation: 
         icon: fas fa-link
         iconcolor: black
@@ -293,7 +293,7 @@ events:
       IS-GEO was very well received in the<a href="https://gsa.confex.com/gsa/2016AM/webprogram/Session40542.html"> Advanced Information Systems and the Geosciences: Visioning the Future Session</a>, GSA 2016.
   
   - name: Intelligent Systems Research to Support Geosciences and the EarthCube Mission
-    tag: Workshop
+    tag: [Workshop]
     url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1533930
     image: assets/event-files/isgeo15/is-geo_humanandtechnologyplanet-14594169_l.png
     collaborators:
@@ -310,7 +310,7 @@ events:
       - name: IS-GEO Final Report 2015
         url: assets/event-files/isgeo15/is-geo-report_30november2015-final.pdf
         type: PDF
-        tag: report
+        tag: [report]
         citation: 
         icon: fa-regular fa-file-pdf
         iconcolor: red
@@ -337,7 +337,7 @@ events:
       Poster, Oral session at the <a href="http://fallmeeting.agu.org/2015/">American Geophysical Union (AGU) Fall Meeting</a> on December 17, 2015 in San Francisco titled "Informatics and Intelligent Systems in Reproducible Geoscience Research" and "“Intelligent Systems Theory and Application in Geoscience” respectively, convened by Suzanne Pierce and Sai Ravela, with oral presentations from Pierre Lermusiaux, Shanan Peters, Victor Pankratius, Sai Ravela, Suzanne Pierce, Eva Zanzerkia, and Mike Seablom among others.
   
   - name: Combining Knowledge in Intelligent Systems with Geosciences to Explore an Emerging Set of Research Opportunities
-    tag: presentation
+    tag: [presentation]
     url: https://gsa.confex.com/gsa/2015AM/webprogram/Paper270375.html
     image: assets/logos/american-association-for-the-advancement-of-science-aaas-vector-logo.png
     collaborators:
@@ -350,7 +350,7 @@ events:
       Oral presentation at the <a href="http://community.geosociety.org/gsa2015/home">Geological Society of America (GSA) meeting</a> on November 4, 2015 in Baltimore titled <a href="https://gsa.confex.com/gsa/2015AM/webprogram/Paper270375.html">"Combining Knowledge in Intelligent Systems with Geosciences to Explore an Emerging Set of Research Opportunities”</a> by Suzanne Pierce, Basil Tikoff, and Yolanda Gil.
   
   - name: Climate Informatics Workshop
-    tag: presentation
+    tag: [presentation]
     url: https://web.archive.org/web/20150928144134/http://www2.cisl.ucar.edu/events/ci2015
     image: assets/event-files/conferences/CI2015-logo.png
     collaborators:
@@ -365,7 +365,7 @@ events:
       “Intelligent Systems for Climate Research: When Will Deep Learners Meet Deep Knowledge?”, and a panel on the topic “Encoding climate knowledge into climate learning”.
   
   - name: Workshop on “Capturing Scientific Knowledge”
-    tag: Workshop
+    tag: [Workshop]
     url: https://web.archive.org/web/20160129171500/http://www.isi.edu/ikcap/sciknow2015/
     image: assets/event-files/conferences/K-CAP-2015-banner700.png
     collaborators:
