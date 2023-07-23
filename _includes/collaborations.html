@@ -1,0 +1,81 @@
+<section id="collaborations">
+  <div class="collaborations-wrap">
+    <p class="title">COLLABORATORS</p>
+    
+      {% assign colabname = '' %}
+      {% assign colablogo = '' %}
+      {% assign colaburl = '' %}
+
+    
+
+      {% for event in site.data.events.events %}
+        {% if event.collaborators %}
+      
+          {% assign event_colabs = event.collaborators | sort: "name" %}
+
+          {% for colab in event_colabs %}
+
+            {% if colabname contains {{colab.name}} %}
+
+            {% else %}
+
+                {% assign colabname = colabname | append: ',' | append: colab.name %}
+                {% assign colablogo = colablogo | append: ',' | append: colab.logo %}
+                {% assign colaburl = colaburl | append: ',' | append: colab.url %}
+      
+
+
+              {% endif %}  
+          {% endfor %}
+
+        {% endif %}
+      {% endfor %}
+      
+      {% assign colabname = colabname | remove_first: ',' | split: ',' %}
+      {% assign colablogo = colablogo | remove_first: ',' | split: ',' %}
+      {% assign colaburl = colaburl | remove_first: ',' | split: ',' %}
+      
+      {% assign colabname-sorted = colabname | sort %}
+    
+    
+     
+
+
+
+
+
+      <div class="collaborator-container">
+          {% for colab-sort in colabname-sorted %}
+            {% for colab-check in colabname %}
+              {% if colab-check == colab-sort %}
+
+
+
+                <div class="collaborator-logo">          
+                              <a href="{{ colaburl[forloop.index0] }}"> <img src="{{ colablogo[forloop.index0] | relative_url }}"> </a>
+                      
+                </div>
+              {% endif %}
+          {% endfor %} 
+       {% endfor %} 
+    </div>
+  </div>
+
+
+
+</section>
+<!-- Method remove duplicates
+
+  {% assign finalTaglist = 'apples,oranges,peaches' | split: ',' %}
+
+{% assign newTagList = '' %}
+{% for item in cart.items %}
+    {% for tag in item.product.tags %}
+        {% assign newTagList = newTagList | append: ',' | append: tag %}
+    {% endfor%}
+{% endfor%}
+
+{% assign newTagList = newTagList | remove_first: ',' | split: ',' %}
+
+{% assign joinedTagLists = finalTaglist | concat: newTagList %}
+-->

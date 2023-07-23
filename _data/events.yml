@@ -5,7 +5,7 @@ events:
     image: assets/event-files/isgeo22/ISGEO22-emailheader.png
     collaborators:
       - name: Institute for Harnessing Data and Model Revolution in the Polar Regions (iHARP)
-        logo: assets/logos/NSF_Official_logo.svg
+        logo: assets/logos/iHARP-logo.svg
         url: https://iharp.umbc.edu/
         grantor: 
           - name: National Science Foundation
@@ -49,10 +49,9 @@ events:
         logo: assets/logos/UCAR-logo.svg
         url: https://www.ucar.edu/
         grantor: 
-          - name: National Science Foundation (NSF)
+          - name: National Science Foundation
             url: https://www.nsf.gov/
             logo: assets/logos/NSF_Official_logo.svg
-          
           - name: EarthCube
             url: https://www.earthcube.org
             logo: assets/logos/earthcube.svg
@@ -91,7 +90,7 @@ events:
         logo:	assets/logos/uhawii-hilo-logo.svg
       - name:	University of Hawaiʻi at Mānoa	
         url:	https://manoa.hawaii.edu	
-        logo:	assets/logos/uhm-white-logo.png
+        logo:	assets/logos/University-of-Hawaii-at-Manoa-logo-from-website.jpg
       - name:	Puna Weather	
         url:	http://www.punaweather.org/	
         logo:	assets/logos/punaweather-logo.png
@@ -116,9 +115,9 @@ events:
       - name:	University of Minnesota	
         url:	https://twin-cities.umn.edu/home	
         logo:	assets/logos/University-of-Minnesota-Logo.png
-      - name:	Consortium of Universities for the Advancement of Hydrologic Science, Inc. (CUAHSI)	
+      - name:	Consortium of Universities for the Advancement of Hydrologic Science Inc. (CUAHSI)	
         url:	https://www.cuahsi.org/	
-        logo:	assets/logos/CUAHSI-logo.png
+        logo:	assets/logos/CUAHSI-4-color-logo_with_URL.png
       - name:	Ansible	
         url:	https://www.ansible.com/	
         logo:	assets/logos/Ansible_logo.svg
@@ -139,7 +138,7 @@ events:
         logo:	assets/logos/OPeNDAP-logo.png
       - name:	The Globe Program	
         url:	https://www.globe.gov/	
-        logo:	assets/logos/globe_logo.png
+        logo:	assets/logos/GLOBE_FULL2011a.jpg
       - name:	The University of Texas Jackson School of Geosciences	
         url:	https://www.jsg.utexas.edu/	
         logo:	assets/logos/jsg_color_digital.png
@@ -157,7 +156,7 @@ events:
         logo:	assets/logos/utexas-logo.svg
       - name: EarthCube
         url: https://www.earthcube.org
-        logo: assets/logos/earthcube.svg
+        logo: assets/logos/logo_NSF_earthcube_combined.png
     location: Hilo, HI
     date: August 6-10, 2018
     experience: 
@@ -172,10 +171,6 @@ events:
     tag: [conference, session]
     url: https://agu.confex.com/agu/fm18/meetingapp.cgi/Home/0
     image: assets/event-files/conferences/agu2018.png
-    collaborators:
-      - name: 
-        logo:
-        url:
     location: Washington, D.C.
     date: December9-14, 2018
     description: >
@@ -185,10 +180,6 @@ events:
     tag: [Workshop]
     url: https://www2.cisl.ucar.edu/events/workshops/climate-informatics/2018
     image: assets/event-files/conferences/logo-ncar-active-2018-climateinformatics.png
-    collaborators:
-      - name:
-        logo:
-        url:
     location: Boulder, CO
     date: September 20-21, 2018
     description: >
@@ -198,10 +189,6 @@ events:
     tag: [Workshop, conference]
     url: https://archive.siam.org/meetings/sdm17/
     image: assets/event-files/conferences/SDM17_logo.jpg
-    collaborators:
-      - name: 
-        logo:
-        url:
     location: Houston, TX
     date: April 29, 2017
     description: >
@@ -268,10 +255,6 @@ events:
     tag: [session]
     url: https://gsa.confex.com/gsa/2016AM/webprogram/Session40542.html
     image: assets/logos/geologicalsocietyofamerica-logo.png
-    collaborators:
-      - name:
-        logo:
-        url:
     links:
       - name: "Growing Intelligent Systems for Geosciences: Strengthening the Community and Connecting Curricular Designs"
         url: https://gsa.confex.com/gsa/2016AM/webprogram/Paper286969.html
@@ -327,10 +310,6 @@ events:
     tag: [conference, session, poster, presentation]
     url: https://agu.confex.com/agu/fm15/meetingapp.cgi/
     image: assets/event-files/conferences/agu2015.png
-    collaborators:
-      - name:
-        logo:
-        url:
     location: San Francisco, CA
     date: December 14-18, 2015 
     description: >
@@ -340,10 +319,6 @@ events:
     tag: [presentation]
     url: https://gsa.confex.com/gsa/2015AM/webprogram/Paper270375.html
     image: assets/logos/american-association-for-the-advancement-of-science-aaas-vector-logo.png
-    collaborators:
-      - name:
-        logo:
-        url:
     location: Baltimore, MD
     date: November 4, 2015
     description: >
@@ -353,10 +328,7 @@ events:
     tag: [presentation]
     url: https://web.archive.org/web/20150928144134/http://www2.cisl.ucar.edu/events/ci2015
     image: assets/event-files/conferences/CI2015-logo.png
-    collaborators:
-      - name:
-        logo:
-        url:
+
     location: Boulder, CO
     date: September 24-25, 2015
     description: >
@@ -368,10 +340,6 @@ events:
     tag: [Workshop]
     url: https://web.archive.org/web/20160129171500/http://www.isi.edu/ikcap/sciknow2015/
     image: assets/event-files/conferences/K-CAP-2015-banner700.png
-    collaborators:
-      - name:
-        logo:
-        url:
     location: Palisades, NY
     date: October 7, 2015
     links:
@@ -390,10 +358,6 @@ events:
     tag: [poster, presentation]
     url: https://docs.google.com/document/d/1jbY758G-JEl5o924zPBKt2khrIqPl4UFjORkEZUmd5U/edit
     image: assets/logos/logo_NSF_earthcube_combined.png
-    collaborators:
-      - name:
-        logo:
-        url: 
     location: Arlington, VA
     date: May 27-29, 2015
     description: >
