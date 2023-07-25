@@ -51,27 +51,18 @@ layout: page
       <ul id="icons">
         {% include icons.html %}
       </ul>
-      <p class="title">PAST EVENTS</p>
-      <ul class="exper-list">
-        {% for event in site.data.events.events %}
-        {% if event.experience %}
-        <li class="meta">
-          <p class="date">{{ event.date }}</p>
-          <p class="description"><a href="{{ event.url }} ">  {{ event.experience.experience }} </a> 
-          <br>
-            <em>{{ event.location}}</em> 
-        </p>
-        </li>
-        {% endif %}
-        {% endfor %}
-      </ul>
+
+     
 
       <section class="workinggroups">
       <p class="title">WORKING GROUPS</p>
       <ul class="groups-list">
         {% for group in site.data.workinggroups %}
         <li class="group">
-          <p class="groupname"><i class="fas fa-users"></i> &nbsp;&nbsp; {{ group.name }}</p>
+          <details>
+            <summary class="groupname">
+          <i class="fas fa-users"></i> &nbsp;&nbsp; {{ group.name }}
+        </summary>
           <div >
             <p class="groupdescription">{{ group.description }}</p>
               
@@ -97,8 +88,25 @@ layout: page
               
           </div>
         </li>
+      </details>
         {% endfor %}
       </ul>
+
+      <p class="title">PAST EVENTS</p>
+      <ul class="exper-list">
+        {% for event in site.data.events.events %}
+        {% if event.experience %}
+        <li class="meta">
+          <p class="date">{{ event.date }}</p>
+          <p class="description"><a href="{{ event.url }} ">  {{ event.experience.experience }} </a> 
+          <br>
+            <em>{{ event.location}}</em> 
+        </p>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+
       </section>
 
     </article>

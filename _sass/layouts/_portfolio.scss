@@ -125,6 +125,18 @@
         li.group {
           margin: 18px auto;
           
+          details{
+            summary.groupname {
+              padding: 5px;
+              text-transform: uppercase;
+              font-weight: bold;
+              //background-color: $theme-color;
+              background: linear-gradient(110deg, $theme-color 10%, $theme-bright 10%);
+              color: white;
+            }
+
+          }
+
           p.groupname {
             padding: 5px;
             text-transform: uppercase;
